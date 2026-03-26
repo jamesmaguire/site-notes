@@ -2,6 +2,29 @@
 #+startup: overview
 #+setupfile: ./notes.setup
 
+* [2026-03-26 Thu] Reading list                                        :book:
+- Who Fears Death, Nnedi Okorafor
+- Mort, Terry Pratchett --- Discworld 4
+- Slaughterhouse-five, Kurt Vonnegut
+- The Three Body Problem, Cixin Liu
+
+* [2026-03-26 Thu] Completed projects                                   :eng:
+** Indesco
+*** 8265 Lot 21, 12 Brady St Berkeley
+- Design of steel framed warehouse with precast facade
+- Piered raft slab on uncontrolled fill
+- CPS and inspections
+*** 7872 West Dapto 2 Reed Creek Bridge
+- Design of 3 span super-T bridge, 35m midspan
+- Wingwall, abutment, headstock, girder and deck
+*** 8029 48-50 Gipps St Wollongong
+- Design of shoring wall
+- CPS and inspections
+*** 7370 71-77 Kembla St Wollongong
+- Design of shoring
+- Design of PT slabs
+- Design of lateral system
+  
 * [2025-11-17 Mon] Deltek training                                      :eng:
 - Hubs > Project > Project Review :: for current status/profitability
 - Billing > Interactive Billing :: shows WIP based on 'posted' timesheets and approved invoices
@@ -4127,26 +4150,3 @@ physical.
 - Find some software that block youtube/reddit
 - Write out green smoothie ingredient list
 
-* [2026-03-26 Thu] Reading list                                        :book:
-- Who Fears Death, Nnedi Okorafor
-- Mort, Terry Pratchett --- Discworld 4
-- Slaughterhouse-five, Kurt Vonnegut
-- The Three Body Problem, Cixin Liu
-
-* [2026-03-26 Thu] Completed projects                                   :eng:
-** Indesco
-*** 8265 Lot 21, 12 Brady St Berkeley
-- Design of steel framed warehouse with precast facade
-- Piered raft slab on uncontrolled fill
-- CPS and inspections
-*** 7872 West Dapto 2 Reed Creek Bridge
-- Design of 3 span super-T bridge, 35m midspan
-- Wingwall, abutment, headstock, girder and deck
-*** 8029 48-50 Gipps St Wollongong
-- Design of shoring wall
-- CPS and inspections
-*** 7370 71-77 Kembla St Wollongong
-- Design of shoring
-- Design of PT slabs
-- Design of lateral system
-  
