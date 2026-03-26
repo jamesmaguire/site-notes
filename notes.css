@@ -63,6 +63,9 @@ h1 {
   margin-bottom: 2rem;
 }
 h2 {
+  display: flex;
+  align-items: baseline;
+  
   color: var(--accent);
   font-size: 100%;
   font-family: 'Inter', sans-serif;
@@ -70,31 +73,27 @@ h2 {
   margin-bottom: 0.5rem;
   border-bottom: 1pt #ddd solid;
   padding: 2pt;
-  text-align: left;
+  cursor: pointer;
 }
 h2:hover {
   text-decoration: underline;
-  cursor: pointer;
-  background-color: var(--hl);
 }
 h2 .timestamp {
-  float: right;
-  text-transform: uppercase;
   font-size: 80%;
   font-weight: normal;
-  min-width: 16ch;
-  text-align: right;
+  flex-shrink: 0;
   padding-right: 1ch;
 }
 h2 .tag {
   color: var(--bg);
-  float: right;
-  font-size: 90%;
+  font-size: 80%;
   font-weight: normal;
   background: var(--accent);
-  border-radius: 4pt;
+  border-radius: 10pt;
   padding-left: 1ch;
   padding-right: 1ch;
+  padding-bottom: 1px;
+  margin-left: auto;
   margin-right: 0.5rem;
   margin-top: 1pt;
   min-width: 6ch;
