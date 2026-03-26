@@ -1,0 +1,4152 @@
+#+title: Notes
+#+startup: overview
+#+setupfile: ./notes.setup
+
+* [2025-11-17 Mon] Deltek training                                      :eng:
+- Hubs > Project > Project Review :: for current status/profitability
+- Billing > Interactive Billing :: shows WIP based on 'posted' timesheets and approved invoices
+- My Stuff > Reporting > Labour Detail - Project Based :: for job labour cost details
+- Management XLSX spreadsheet :: For YTD stats, note that Deltek is whole project lifetime
+
+* [2025-09-11 Thu] Indesco forecast billing                             :eng:
+- Blue cell - invoice raised for approval
+- Yellow cell - invoice issued to client
+
+* [2024-11-08 Fri] Use of imported steel                                :eng:
+[Self research]
+
+Third Party Certification Schemes in Australia
+- ACRS
+- NSSCS
+- ATIC Scheme 10
+ACRS is for steel manufacture, NSSCS is for processing, shop detailing, welding, corrosion protection and erection
+
+ASI TN005 has guidance on the use of imported steel
+
+* [2024-05-28 Tue] Reinforcing steels with yield strength of 600 MPa    :eng:
+
+- *Presenter*: Anthony Ng
+
+- AS4671
+  - Same in terms of weldability
+  - Ductility for 500N and 600N is the same (>=5.0% strain)
+  - ACRS certified 600N steel is available
+- AS3600 recognised
+- AS2159
+  - Concrete piles in accordance with AS3600, therefore recognised
+- AS5100 Part 5 updated May 2024 - increased scope to allow 600 MPa steel
+- NCC (BCA Vol 1 & 2) design to AS3600 is deemed to satisfy
+  
+- For buildings operational carbon is declining due to greening of energy supply, but embodied carbon predicted to remain
+- 600 MPa aims to reduce embodied carbon
+- Australian made supplier: Sense 600
+- Made from recycled steel only (lower kgCO2eq/kg 1.33 500N -> 0.966 600N)
+- Equivalent design load capacity achieved by downsizing bars: N12 -> S12 up to N40 -> S37
+- 16.7% less mass, 39% less embodied carbon
+- Ideal use is when governed by strength (may not work as well for crack control, min reo, etc)
+- Couplers available from Ancon. Griptec, Lenton, Bartek pending
+
+- Columns (UNSW research based)
+  - Fitments - substitute equivalent area, no other requirements - approved Codemark certificate CM30136
+  - Long bars - 1% -> 0.83% - approved to use 0.0083Ag in CM30154
+  - Fitment spacing - 15db - squarish core and optimised rib gives better I value / buckling properties - 16.4db in CM30154
+
+- Development lengths
+  - Lsytb(600) = kl*Lsytb(500) where 1.05 < kl < 1.09 /but/ tested with optimised ribs and shown that kl = 1.0 works to provide equivalent - Codemark pending
+
+- Fatigue (Monash Uni)
+  - Appears from current testing that performance exceeds AS3600 for 500N, once complete Codemark to be submitted
+
+- Design data sheets, design guides, welding guide, codemark certs and software all available from Sense Solutions
+- [[https:www.infrabuild.com/sense-solutions/ ]]
+
+- Made in Australia - Laverton and Sydney
+- Steel equivalent bars is sold at the same per m cost (from the mill), maybe less for steel fixer/transport/handling
+- All SRIA members have access to Sense 600
+* [2024-05-08 Wed] Structural adequacy of slabs (FRL) to AS3600 5.5.2   :eng:
+
+*5.5.2(b)(ii)* The minimum slab thickness defined in Table 5.5.2(A) is required over a rectangular area extending 0.16 of the larger span length either side of a column in each direction from the column face. The depths in this table cannot be reduced by calculation methods in accordance with Clause 5.3.1(b). Outside this area, the minimum slab depths for insulation in Table 5.5. I for insulation apply.
+
+*Aaron Hazelton*
+if you model it as a peno
+and it works then not a problemo
+as the FRL is a structural adequacy questions opposed to insulation.
+so if the slab works and spans with penetrations its ok from a structural adequacy
+perspective
+its up to the fire collar system to provide the insulation properties of the FRL etc,
+
+*Darius P*
+James Maguire - Just be careful with this one, if the certifier knows what hes on
+about it he may knock it back, technically, Aaron is correct because provisions are
+made for this in the Eurocode (Treating them as penetrations), however, as per
+AS3600, this part of the code does not want you to use the Eurocode as defined in
+below snapshot of the code.
+For straight penetrations, I agree it actually is a penetration as is fine. The only
+comment i make is that you can not treat a thinner section of slab as a penetration.
+
+* [2024-03-12 Tue] Precast 102                                          :eng:
+
+- *Title*: Precast 102 The Fundamentals of structural design using precast
+- *Presenter*: Sime Rogic
+- Check load paths running down the building
+- Cheapest way is to have light panels typ and heavy bottom floor strut rather than medium all the way
+- Consider areas where you /do not/ want load to come into panels
+- Non-load bearing panels need to have slab designed to take load /with particular care given to stripping sequences/
+- Dowel spacing to match multiple of panel reo if ties are used
+- Make sure castins fit in panel
+- Ensure panels do not span across PMJ/TMJ unless isolated on one side
+- If panels are input as line loads, make sure to account for mass in lateral design
+- 3.2m panel will fit on a truck, 4.2 but needs special permits for transport
+
+* [2024-02-06 Tue] Precast basics at Indesco                            :eng:
+
+- *Title*: Precast basics 101
+- *Presenter*: Sime Rogic
+
+- Structural design and detailing -> drafting -> engineering check
+- Use precast review checklist
+- *Design*
+  - Split up analytical wall to prevent load shedding through joints
+  - Need to design and markup column transitions
+  - Accessories: PSA, Ancon, Reid -> products all shown on website
+- *Drafting*
+  - All elements to be modeled correctly (masking can lead to issues if model is shared or missed in updates)
+- *Shop drawing reviews*
+  - Before review ensure that the design intent/load paths are understood
+- *Viewers*
+  - Trimble connect
+  - BIMVision
+- *Example jobs*
+  - 7693
+  - 
+* [2024-02-05 Mon] Core & Foor Antenatal Classes                      :birth:
+
+** Episode 1: https://fast.wistia.net/embed/iframe/4a7eaadzx6
+** Episode 2: https://fast.wistia.net/embed/iframe/m4da1ew28v
+** Episode 3: https://fast.wistia.net/embed/iframe/dnxlq4d8sz
+** Episode 4: https://fast.wistia.net/embed/iframe/ihafp3hxf2
+** Episode 5: https://fast.wistia.net/embed/iframe/vptm48skgx
+** Episode 6: https://fast.wistia.net/embed/iframe/3tp1dt9k3c
+** Episode 7: https://fast.wistia.net/embed/iframe/fo82cy83iv
+** Episode 8: https://fast.wistia.net/embed/iframe/kgzfssyd2x
+
+* [2024-01-31 Wed] Holsworthy bridge retaining wall                     :eng:
+
+- *Title*: Holsworthy over bridge retaining wall design and construction
+- *Presenter*: Jamie McIlquham, WSP
+
+- Focus on temporary works and working platform to allow piling rig to drill piles without impacting rail line
+- Hydraulic props used on soldier pile wall
+- Drainage behind wall
+- Overhead power lines challenge for plant and equipment
+
+* [2023-12-28 Thu] What's new for structural engineers in Revit         :eng:
+
+- *Title*: AMER/EMEA - October 30 - AEC Collection: What's new for structural engineers in Revit
+- *Presenter*: Autodesk
+
+- Revit for structures presentation
+- New Revit for 2024 has increased rebar modelling features
+- Bending schedules auto-generated
+- Updated tagging options for rebar
+- Updated copy features for rebar to similar elements
+- Steel modelling and connection libraries
+- Interoperability between elements and analytical model which can be
+  exported to Robots for analysis, future will allow etabs
+  interoperability
+
+* [2023-11-30 Thu] Analysis of beams using Python                       :eng:
+
+- YouTube video https://youtu.be/4lgD6Mv7qaA?si=Pz_ZgUoArca6U1eI
+- Using planesections library (OpenseesPy backend)
+
+* [2023-11-16 Thu] Steps to Becoming a Chartered Engineer               :eng:
+
+- *Title*: Steps to Becoming a Chartered Engineer
+- *Presenter*: Aaron Glaskin, presentation to Indesco
+
+- 5+ years of experience
+- Preferred 2-3 reviewers
+- CV add presentations at conferences
+- CV 3 pages, not short as per job app
+- CPD hours is not required any more
+
+  aglaskin@engineersaustralia.org.au
+
+* [2023-11-13 Mon] Wollongong Bluebeam training                         :eng:
+
+- *Presented by myself*
+- Combining (stapler), splitting, extracting
+- Adding a scale + viewport
+- Adding to Tool Chest
+- Preloaded libraries (steel sections, car park spot)
+- Snapshots (G) and advantages over screenshots
+- Comparing documents (Synchronize views)
+- Change formatting + copy formatting
+- Adding stamps to drawings
+- Flatten/unflatten
+  
+* [2023-11-07 Tue] Fosroc patch methodology                             :eng:
+
+1. Scabble back loose/discontinuous concrete in effected zone until solid concrete surface is achieved
+2. Clean and remove any debris from surface and blow out with blower and wire brush
+3. Remove any corrosion from exposed steel and apply steel primer (Nitoprime Zincrich or approved equivalent) to manufacturer specifications
+4. HOLD POINT - provide Indesco for photos to examine works and approve prior to patching
+5. Apply substrate primer (Nitobond HAR or approved equivalent) to effected zone to manufacturer specifications
+6. Apply patch mortar (Renderoc HB70 or approved equivalent) to manufacturer specifications
+
+* [2023-10-29 Sun] The City and the Stars                              :book:
+
+{{{stars4}}}
+
+An Arthur C Clarke book about the city of Diapar, one of the two remaining human cities left on Earth. Some of the ideas in this book are amazing. Inhabitants live very long lives and when they 'die' they return to the memory banks, only to be reborn at a random later period in amongst a new combination of people. This is contrasted with the city of Lys where inhabitants have normal lifespans but have learnt telepathy for communication.
+
+Both civilisations have been trapped on earth because of old legends about alien invasions where they promised that they would stay on earth, but this seems to be only a story used to keep the civilisations placid.
+
+The main character Alvin finds a spaceship and travels, finding reminants of massive and interesting abandoned civilisation and that potentially these civilisations have travelled to other universes in search of resources.
+
+The book's plot and characters are a little weak, but the scale and ideas are incredible. I originally rated the book 7/10 but after resting on it I think it deserves an 8/10.
+
+* [2023-10-28 Sat] Ad Astra                                             :movie:
+
+{{{stars3}}}
+
+Brad Pitt is an astronaut who travels to his long thought lost Dad and his ship. Entertaining, but not much in the way of takeaways.
+
+* [2023-10-20 Fri] Bluebeam sketch training                             :eng:
+
+- *Presenter*: Dave Southgate
+
+- All to use same font (ISOCPEUR)
+- Use colours to emphasise
+* [2023-10-05 Thu] Basic principles of curtain wall                     :eng:
+
+- *Title*: Basic Principles of Curtain Walls
+- *Presenter*: Julian Sigmund
+
+- Opaque and vision areas
+- Larger opaque areas hide insulation and cover floor - results in more performance
+- Structural silicon is not good for permanent/long term loading, setting blocks used to set in glass permanent load transfer
+- Between floors require smoke and fire seals (hilti foam or blanket+rockwool)
+* [2023-09-20 Wed] Weather tightness and drainage                       :eng:
+
+- *Title*: Weather tightness and drainage
+- *Presenter*: Julian Sigmund
+
+- Leakage mechanisms: gravity, kinetic, surface tension, capillary, air currents, pressure diff
+- Weep hole >8-10mm
+- Gaskets for rain screen, air seal, fill gaps, noise/thermal insulation, friction reducer, setting/spacing
+- Friction fit gaskets used overseas, in Australia can be pulled out by cockatoos
+* [2023-09-15 Fri] Calculation of maximum crack widths                  :eng:
+
+1. Calculation of maximum crack width for practical design of reinforced concrete - https://onlinelibrary.wiley.com/doi/full/10.1002/cend.202100004
+   - Uncracked state (e=0-0.001) has high stiffness from concrete component
+   - Crack formation (e=0.001-0.008) load transfers to steel
+   - Stabilised crack (e>0.008) stiffness based on steel stiffness
+   - Max steel strain is always subject to global force equilibrium es=F/(EsAs)
+
+* [2023-09-12 Tue] Tendon cracking repair methodology                   :eng:
+
+[From Dave Southgate]
+
+1. De-stress tendon number TXX and TXX.
+2. Breakout/scabble back all cracked concrete in effected zone.
+3. Clean and remove any debris from surface and blow out with blower and wire brush.
+4. Re-chair PT tendon TXX and TXX to achieve required cover.
+5. HOLD POINT – INSERT BUILDER NAME to provide Indesco with photos to examine works prior to any further action.
+6. Once Indesco have given approval, apply a steel primer such as PARCHEM Nitro Primer or equivalent to any exposed reinforcement.
+7. Apply an epoxy based binding agent EPIREZ-133 or equivalent to the exposed concrete and patch with MP Rapid Set-60 or Masterflow 870.
+8. Once concrete has reached it’s required compressive strength, carry out final stressing of tendon TXX and TXX.
+
+* [2023-08-27 Sun] Code web app for RC wall design                      :eng:
+* [2023-08-26 Sat] Code web app for beam shear/torsion design           :eng:
+
+* [2023-08-24 Thu] Facade Special Cladding Typologies                   :eng:
+
+- *Title*: Special Cladding Typologies
+- *Presenter*: Julian Sigmund
+
+- Cladding is external skin to a building
+- Main function is rain screen
+- Porous material: cavity behind drains and sun dries it out
+- Sealed construction: sealed on outside assuming only small amount of water in, high maitenance as sealant joint is relied heavily on
+- Rainscreen: vapour permiable but water inpermiable, needs ventilation to prevent condensation in cavity
+ 
+* [2023-08-04 Fri] SlabTec Remedial Capabilities                        :eng:
+
+- *Title*: SlabTec Remedial Capabilities
+- *Presenter*: Haydn Kirrage, SlabTec
+
+- Repurposing for changing load conditions or defect rectification
+- CFRP laminates 1.2m x 0.6m x 1.2mm most common
+- CFRP rods, fabrics, ropes, L plates
+- Fabrics more common for wrapping columns
+- Steel plate strengthening - for exceeding CFRP allowed limits
+- CFRP has no fire resistance, need to go for steel
+- Cantilever awning on Woolworths Wollongong done by SlabTec
+- Carbon fibre, 3000 MPa strength. If prepared properly concrete-epoxy bond will not fail. Failure is always concrete tension pulloff. 1.5 MPa pulloff tension required. For 30 MPa+ this works fine
+- CFRP better for construction - roll can be carried in
+- Scaning:
+  - Electromagnetic scanning once calibrated can tell bar size and cover
+  - GPR radar for PT - can't see through reo at all so heavily reinforced can be hard to determine ($35k for machine)
+* [2023-08-03 Thu] Facade: Curtain wall typologies                      :eng:
+
+- *Title*: Facade: Curtain wall typologies
+- *Presenter*: Julian Sigmund
+
+- Curtain walls are suspended/hanging/non load bearing facade
+- Prefabricated offsite to high precision
+- Stick wall system for hanging
+- Cons: long term movement in structure can induce stress, acoustics/thermal travelling through levels
+- Vertical sticks are mullions
+- Temptation to close holes on site which can cause pressure inbalance
+- Pressure solved by first water barrier then air barrier
+- Gasket system quicker/reusable compared to structural silicon which is slow setting and more permanent
+- Types:
+  - Spandrel +ribbon glazing
+  - Panelised curtain wall
+
+* [2023-08-02 Wed] Recification/patching of concrete                    :eng:
+
+1. Scan the existing concrete to locate reinforcement
+2. Jackhammer back to solid concrete. All reinforcement to be left intact during rectification works.
+3. Indesco to inspect.
+4. Clean exposed reinforcement and treat with Epirez 133.
+4. Proceed with patching in accordance with manufacturers specifications.
+
+* [2023-07-28 Fri] Importance of saftey in temporary applications       :eng:
+
+- *Title*: Temporary works applications and fastening
+- *Presenter*: Damish Zuberi, Hilti
+
+- Standards:
+  - AS 1170.0 Design actions
+  - AS 3850.1&3 Prefab concrete
+  - AS 5131 Steelwork erection
+  - AS 1576.1 Scaffold
+  - *AS 5216 anchor standard*
+* [2023-06-28 Wed] Budget estimates                                     :eng:
+
+- *Presenter*: Aaron Hazelton
+
+- For estimating project cost
+- Only showing reo on plan
+- Should all be below the initial budget rates provided
+- Changes/additional need to communicate change to reo from the budgets
+- If ever higher than budget rates it needs to be communicated before drawings are issued
+  
+* [2023-06-02 Fri] Technical discussion                                 :eng:
+
+- Long formed wall, high degree crack control, joints not required given but accept low degree of cracking
+- RDR docs basically requiring as builts on the fly and should be accounted for in fees
+- Importance levels non clear between II and III
+- Wet areas fall within slab
+ 
+* [2023-05-12 Fri] Technical discussion                                 :eng:
+
+- Precast panel S and M connectors
+- Not much benefit from M, but S could save time welding stitch plates
+
+- Integrity reo, Dave likes to get away with min required
+
+- Always provide lacer in hook or cog
+
+- Forklift/construction loading, add circle area (2.5 dia?) no load point load in middle, check worst spans
+ 
+* [2023-05-11 Thu] Combining seismic design with reinforced concrete structures :eng:
+
+- *Title*: Combining seismic design with reinforced concrete structures
+- *Presenter*: Scott Munter (CEO SRIA)
+
+- Resilience: survive and recover more quickly from extreme events
+- Flood, storm and cyclone much larger economic impact than earthquake
+- Low risk, high consequence. All capital cities expected to have earthquake
+- Syd earthquake in top 10 financial risk in Aus
+
+- Min reo requirements of 3600 ensure ductility
+- Earthquake design elastically for nominal static load
+- Static depends on mu and Sp (Tbl 14.3)
+- More ductility results in reduction of static load resisting requirement
+- Integrity reo acting as tension membrane as top steel spalls off and
+  bond disappears
+- For perimeter columns additional tie back reo may need to be
+  provided to control the buckling length (upcoming in standard?)
+- Even in beam reo Asmin required? Check from SRIA?
+- For moment resisting frames pay attention to min splice lengths
+  through columns and fitment spacing requirements
+- Closed ties required in plastic hinges
+- Technical Note 8 and 9 SRIA cover integrity reo and beams
+
+- Columns
+- Short columns loose ductility (shortened by parapets/infill) and
+  must be detailed accordingly
+- Detailing consisted with required drift throughout the structure
+  (drift compatibility)
+- Detailing for IMRF columns, moment resisting of columns must be 20%
+  greater than beam (strong col, weak beam)
+- This provides good side sway rather than weak storey type failure
+
+- Slabs as diaphrams
+- Ensuring diaphram loads are passed through joints (collector reo)
+
+- Consider designing transfers with mu = 1
+- Direct load paths always preferred, but if not hard to justify
+  greater ductilities
+- Seismic movement joints allow for drift to avoid pounding
+
+- Steel must be specified with certification (ACRS or equivalent)
+- Sustainability = total emissions / life span, longer lasting
+  structures will have less imapct on environment
+
+- For a transfer, reverse integrity reo required? Maybe since the
+  tension reo will delaminate
+* [2023-05-10 Wed] Barriers in car parks                                :eng:
+
+- *AS 2890.1* Parking facilities Part 1 - Off street parking
+  Barriers are constructed to prevent vehicles from running over the edge of a raised platform or deck in a multi-storey park. Required for drops >600mm
+  Designed to AS/NZS 1170.1
+
+- *AS/NZS 1170.1* Permanent, imposed and other actions
+  Section 3.8 Car Parks
+  Horizontal load for light traffic areas (Type F - parking/garage, driveways, ramps restricted to cars, light vans (<2500 kg GVM))
+  Barriers ........................................  30 kN
+  Barriers at end of straight ramp > 20m .......... 240 kN
+  Impact force distributed over 1.5 m length @ 0.5 m above floor (20 kN/m)
+
+* [2023-05-05 Fri] Learning of strut+tie modelling for pile cap design  :eng:
+
+- From textbook Pack 2018 - Australian Guidebook for Structural Engineers
+* [2023-04-24 Mon] Explaining concrete - Veritasium                     :eng:
+
+- *Title*: Explaining concrete
+- *Presenter*: Veritasium (youtube channel)
+- Link: https://www.youtube.com/watch?v=rWVAzS5duAs&list=WL&index=2&pp=gAQBiAQB
+
+- Roman cement used lime, not portland cement
+- Was not mixed throughout so didn't fully set, this gave a self healing property once cracks penetrated the uncracked areas
+- Modern cememnt all portland cement
+- Needs to remain high humidity for best setting
+- Aggregates don't have large effect on strength but can bring down the cost
+- Lightweight aggregates can acheive lower densities (~17 kN/m3)
+- Sets in ~4hr, soft drink can delay curing 1-2hr due to sugar content
+
+* [2023-04-04 Tue] Inducta seminars                                     :eng:
+
+Finite Element Analysis Overview:
+https://vimeo.com/425753916?embedded=true&source=video_title&owner=115197565
+
+Training Videos:
+https://www.inducta.com.au/Training.html
+
+Wall Design Training:
+https://www.inducta.com.au/Videos/HR-Wall_Design_Intro.mp4
+
+PT design seminar (2006)
+https://vimeo.com/showcase/10304612
+Password: inductaPT_2006_Indesco
+
+* [2023-03-28 Tue] DBP Act - Shoring Design                             :eng:
+
+- *Title*: Design and Building Practitioners Act - Shoring Design
+- *Presenter*: Simon Fagg
+
+- Shoring - excavation support system supporting adjoining ground
+- Damage: impairs value of usefulness (damage to buildings, pipe)
+- Failure: excessive deflections
+- Zone of infuence - NCC Table 3.1.1.1 - this is what's used by regulations
+- Anchors - temporary but leaves anchors in the ground (consideration to future uses)
+- Removable anchor using loop strand that leaves only bonded length in ground
+- If not registered you need to work under the direct supervision of the registered engineer
+- Design requirements: NCC 3.1.2.0, AS 4678, TfNSW TD GTD 2020-001 (next to TfNSW infrastructure)
+- Design process
+  - Establish condition (geo report)
+  - Establish what structures in ZOI
+  - Establish condition of the structures and analyse their ability to tolerate ground movement (risk assessment)
+  - Establish final excavation depth (including local, eg lift pits)
+  - Establish if anchors allowed
+  - Select shoring system
+  - Calculations to determine component sizes
+- Dilap report used as part of the design process
+  - confirm structure of the neighbouring structure
+  - confirm condition and vulnerability to movement
+  - document condition
+  - Undertaken in accordance with AS 4349.0
+- Docs need to
+  - Show site boundaries
+  - Shoring location
+  - Top of shoring levels
+  - Location of existing structures
+  - Location of on site exploratory work
+  - Neighbouring site surface level, footings, surcharges assumed, construction stages, assumed geological conditions
+  - Location of ground anchors including theoretical positions and tolerances
+- GIRD - ground installation rights document needs to be on portal if any part of the anchor is within neighbouring property
+- RDP professional must be indemnified under an insurance policy
+- Need to proove that your design is reasonable to a group of peers as a reasonable design
+- If peer review occurs it is harder to establish negligence (may help PI premium)
+- Recommended up to three peer reviewers
+- Shoring is considered a building element even though it is often temporary
+- Documents can be found on Fair Traiding (search shoring and DBP)
+- GTD 2020-001 is good resource for monitoring programs
+- Monitoring program should have multiple warning limits if multiple levels of excavation
+- 
+
+* [2023-03-27 Mon] 150 N Riverside                                      :eng:
+
+- *Title*: How this tower barely touches the ground
+- *Channel*: Stewart Hicks (Youtube video)
+
+- Building foundation is constrained by river and train tracks so core flares out
+- Base is 1/3 width of the tower above
+- 50 floors
+- Core built with a large steel transfer truss
+- Largest steel members ever built
+- Tuned mass damper at top
+
+* [2023-03-14 Tue] Inducta RCB wall designer training                   :eng:
+
+- *Title*: Inducta RCB wall designer training
+- *Presenter*: Marko Jankulovski
+
+- Analytical wall - line element in software
+- Design wall - usually match but sometimes merges of multiple analytical walls
+- Design setting is similar to column groups (collection of design parameters that are applied to the wall)
+- Include design property of wall can be set to no (eg, shoring wall you do not want in the wall designer)
+- Model should attempt to replicate wall restraints in elevation (slab intersections and perp wall connections)
+- Key points
+  - Preparation of model
+  - Analytical v design wall
+  - Design settings applied to design walls
+
+* [2023-03-11 Sat] TSEC 97 Fundamentals of post-tensioned concrete      :eng:
+
+- *Title*: The fundamentals of post-tensioned concrete design
+- *Presenter*: Dirk Bondy
+
+- Inducing large loads into the concrete from day 3
+- Need to pay special attention to achorage to prevent explosion
+- Has YouTube lecture series
+- Advises staying on top of technical skills and hand calcs as backups
+* [2023-03-11 Sat] Bong bong pass                                      :hike:
+
+12:25
+Writing this from the top on the escarpment. Doing this hike solo while Alex and housemates are in Canberra for a tournament. The first km was a long consistent uphill slog. Then some awesome rock and views started to appear for the last half k. Definitely challenging but the path was easy to follow. View from the top is really cool and I can clearly see Forest Reach Bridge. Time to head down.
+
+* [2023-03-06 Mon] Ethical item                                         :eng:
+
+Project 9011 Green Square Stage 4 Excavation - IV
+
+- SEA Independant verification
+- Structural report by VDM did not provide the typical necessary results to assess against SW guidelines and calcs hid the fact that the culvert did not pass
+- Pressure from client to get the report out same day
+- It was discovered that the loading exceeded both the SW guidelines and in some cases the ULS strength under the post-development loading provided by geotech assessment
+- Client notified about the issue. We positioned ourselves as not delaying the package submission but as saving the client time of submitting and having the development rejected by SW
+- Resolution: geotechnical report was revised based on geotech IV recommendations that the original analysis was overly conservative. Under the revised loading the culvert passed the SW loading guidelines for SEA
+
+* [2023-02-27 Mon] The Bicentennial Man                                :book:
+
+An Isaac Asimov short story about a robot, Andrew Martins, who slowly gains sentience, first through the development of creativity. He uses his creativity to do some woodworking projects, making money and slowly building wealth and then buys his freedom. He begins to chase legal recognition for robots, but mostly himself. He moves into a synthetic body and begins to outlive his prior owners, the Martins. In order to finally be recognised as a man, he builds in mortality to his body and passes away on his 200th year.
+
+Some questions about the book:
+- What is consiousness?
+- What is it to be a human?
+- Does his final thought, about "Little Miss" indicate he has developed Love?
+- Should we be polite to Siri/Google/Alexa?
+
+Roko's basilisk is a thought experiment about the potential risks involved in developing artificial intelligence (AI). Its conclusion is that an all-powerful artificial intelligence from the future might retroactively punish those who did not help bring about its existence, including those who merely knew about the possible development of such a being.
+
+* [2023-02-26 Sun] Stutz                                                :movie:
+
+A film by Jonah Hill about his therapist, his phylosophy and his tools. Profound. It was very deep. Phil Stutz was very good at metaphor abd changing perspective in situations. I think this would be a good film to revisit if I'm having a hard time with anything.
+
+* [2023-02-20 Mon] Microjournal                                         :jnl:
+
+21:27
+Today I feel fat and lazy. Also a bit sad hearing about Nan's loss of memory. It's time to wake up and start working towards goals. I'm in a good routine of rowing/exercise every day but I need to couple that with good eating habits. From now on I am sticking to three smaller portion meals and any snacks are just fruits or nuts. Time to start ticking off that healthy eating habits.
+
+* [2023-02-16 Thu] Penetron presentation                                :eng:
+
+- *Presenter*: Hacene Baleh, hacene@penetron.com.au - Penetron
+
+- Concrete deteriation: corrosion of rebar, freeze/thaw
+- Penetron admixture used to seal up pores
+- Hydrophylic material can be used for non-hydrostatic
+- Hydrostatic - using SB admixture
+
+- Secant pile vertical cold joints treated with Penecreate mortar
+- Penebar installed horizontally within slab
+- Penebar min cover 55mm
+
+- Admixture is only suitable for static cracking, isn't going to work for dynamic loading
+- BS8102/2009 gives watertightness specifications
+
+- Carbon dioxide + carbon hydroxide = calcium carbonate + water
+- Calcium carbonate lowers pH below 9 so corrosion can occur
+- Cut the water element prevents corrosion
+
+- Chloride attack near to sea
+- Cut the water element prevents corrosion
+
+- With preliminary drawings, penetron is able to markup details for waterproofing
+- Pick and drop notes available
+- Library of standard details and notes
+* [2023-02-12 Sun] Microjournal                                         :jnl:
+
+21:05
+Today was an interesting day. Still going with dailuy rowing though it's getting hard after hiking at Currawong yesterday with Aurelie and Chris. Did some more work on the bedroom side table, and we did an early Valentine's dinner at Karma Tea house with some gelato and a walk after. I'm grateful for the walk, it gave me and Alex time to talk about a lot of things. It kind of reminds me of Steptember in 2021 when we did a lot of talking.
+
+Started planning our Japan trip but it's a little overwhelming. Might do a little more tomorrow evening.
+
+I also committed to feeding the fish daily. A little habit that I would like to cultivate and take off Alex's plate. Tomorrow morning I might take the clippers out and clear some of the weeds around the pond.
+
+* [2023-02-10 Fri] The Structural Engineering Podcast                   :eng:
+
+- *Title*: Building with the future in mind
+- *Presenter*: Ethan Fogle (HGA Architects and Engineers)
+
+- From an embodied carbon perspective Timber > Steel > Concrete
+- Engineers to be involved in the ideation phase to bring sustainability values to projects
+- Idea of quantising embodied carbon as part of material takeoff
+
+* [2023-02-10 Fri] Everything Everywhere all at once                    :movie:
+
+{{{stars5}}}
+
+On the theme what is the meaning of life, this movie crosses multiple universes, the matrix and comedy into one thrilling movie. Refreshingly unique and has the potential to be a classic.
+
+* [2023-02-08 Wed] Timber design series                                 :eng:
+
+Webinars from NZ timber design society:
+https://www.timberdesign.org.nz/timber-design-society-2022-series/
+
+* [2023-02-05 Sun] Why god allows bad things to happen                  :philosophy:
+
+I was going to ask God why there is so much starvation, war and suffering in the world, but I was afraid he would ask me the same.
+
+* [2023-02-05 Sun] Microjournal                                         :jnl:
+
+21:39
+Today I finished the week of cold showers. I might keep doing it, it's fun. I've also done 5 days of rowing in a row. Wondering if I should take a rest day, but interestingly I have been improving.
+
+* [2023-02-04 Sat] Episode 71 - Structural engineering podcast          :eng:
+
+- *Title*: Dampers, How to shake it up and slow it down
+- *Presenter*: Trevor Haskett, Motioneering
+- *Link*: https://castbox.fm/channel/id1486472?country=us
+
+- Tuned mass dampers (steel typ) or sloshing tank dampers are being commonly used for buildings larger than 30 storeys
+- Currently for serviceability only, not to reduce ULS
+- Reverse calcs used to check pools on upper levels
+- Usually effective at 1-1.5% of the modal mass
+- Take up prime real estate but can be used to increase 5-10 storeys
+
+* [2023-02-03 Fri] How to become a Chartered Engineer info session      :eng:
+
+- *Presenter*: Paul Sloam, Jessica Milestone
+- Area of practice: Structural Engineering
+- Assessment:
+  1. Self assessment, rating of Functional or above required in all 16
+     competencies
+  2. Industry review, for each piece of evidence provided to address
+     16 competencies it is reviewed
+  3. Enrol for chartered, CV and CPD hours - can record CPD in another
+     method than online tracker, just requires standardised info (look
+     up )
+  4. Evidence process
+  5. Professional interview
+
+* [2023-02-03 Fri] TSEC 95 Why Mass Timber is Gaining popularity        :eng:
+
+- *Title*: Why Mass Timber is Gaining popularity
+- *Presenter*: Eric McDonnell
+
+- Provides a difference in feels which is appealing to end users
+- Supply is a key to working out feasibility
+- advice to take hold of career opportunities
+
+* [2023-02-03 Fri] Microjournal                                         :jnl:
+
+08:24
+This morning at city beach there was a large pod of dolphins swimming offshore. Really amazing and makes me want to spend more spontaneous time outside.
+
+* [2023-02-01 Wed] Microjournal                                         :jnl:
+
+20:11
+February is the month of the rowing challenge. Did my first row today. 3x1km with a very high heart rate at 30spm. If like to see what it's like at the end of the month.
+
+07:10
+Cold shower challenge is going well and this month we have the cumulative rowing distance challenge which I'm going to put in a good nudge. Starting today with packing the gym gear and rowing after work, or at lunch.
+
+* [2023-01-30 Mon] Microjournal                                         :jnl:
+
+07:18
+Cold shower day 1. Not as bad as I thought, but still tough. I'm commiting to one week (through to Sunday).
+
+* [2023-01-29 Sun] Microjournal                                         :jnl:
+
+21:39
+Came across the idea of cold showers and I'm thinking of doing it. My immediate reaction is to shy away, but maybe hitting it head on will do some good.
+
+* [2023-01-27 Fri] Microjournal                                         :jnl:
+
+07:59
+Just thinking about being content in life. It's fulfilling to do work that has lasting effects. Doing stuff around the house is an example. I want to have this same feeling working on my health.
+
+* [2023-01-26 Wed] Carrington Falls and Nellie's Glen                  :hike:
+
+Today we went on a walk/exploration with Holly Gemma Andy Rosie Nicho Otto Matt Asaka. We went to Carrington Falls first and then crossed the river to Nellie's Glen swimming hole. It was pretty busy so we ended up going upstream from Nellie's Glen for a swim.
+
+* [2023-01-25 Wed] The Swimmers                                         :movie:
+
+{{{stars4}}}
+
+About two Syrian sisters that make the journey to Germany as refugees and based on a true story. It's a powerful and emotional story.
+
+* [2023-01-23 Wed] Microjournal                                         :jnl:
+
+20:14
+Time to get hungry to achieve some health goals. Time to bring the focus and discipline. I know what I need to avoid and that's where it will start.
+
+* [2023-01-22 Sun] Microjournal                                         :jnl:
+
+08:02
+Just realised while watching a YouTube video that I've slipped on journalling and also starting to get more low quality screentime on the phone. Time to start turning that around. From now if I have the urge to grab my phone I'll come here and write a bit first.
+
+* [2023-01-21 Sat] Microjournal                                         :jnl:
+
+07:12
+This week went a bit lopsided. I think I need to be more mindful about what I'm doing around work. But mental strength isn't the problem, I think it might be about systems. For next week I will trial puzzling before work to fill up time. I also went too hard on the first run back resulting in two rest days. Need to tone it back, maybe some easy 3ks around the block followed by some balance or core.
+
+* [2023-01-21 Sat] Clover Falls Trail                                  :hike:
+
+Walked the Clover Falls Trail on Macquarie Pass. The carpark half way up was pretty full when we got there around 9. With Nicho, Gemma, Andy and Alex. First part very easy, then once you get down to the stream the path starts to get hard to find, we got lost a few times but made it to Clover Falls. The official path crosses just before the falls, but much easier to stay to the left on the way there.
+
+* [2023-01-17 Tue] Andor                                                 :series:
+- My rating: {{{stars5}}}
+- A 12 episode backstory on Cassian Andor and the beginnings of the Rebellion in Star Wars. This series was amazing. Atmospheric, and with a story that really drew me in. The story is on a human scale with no Jedi influences but explores some very interesting parts of the universe. I would even rate it higher than Mandalorian, I think.
+
+* [2023-01-14 Sat] Microjournal                                         :jnl:
+
+17:33
+Today we went whitewater rafting in Penrith as a birthday surprise trip with Alex Holly Gemma Andy Nicho Rosie. Super fun. Some of the highlights were going into surf the wave, Holly falling out and I hauled her back in. I fell out once and was hauled back in by Alex and Andy. We got T-boned when stuck in the surfing spot, Rosie tried to jump at the colliding raft so that she wouldn't go under but it looked like she was trying to push it singlehandedly.
+
+* [2023-01-13 Fri] Microjournal                                         :jnl:
+
+10:25
+Now I'm 30. Doesn't feel very different, but I have been having some interesting thoughts. (1) Most of the things I would like to change come down to mindfulness (health, screen time). This is something I should work on. (2) I enjoy my days off more when I do something or build something. I need to remember this for weekends.
+
+10:29
+Had the spontaneous idea to go for a swim at Austinmer and breaky at a cafe while there. Really nice way to spend the morning, especially since it wasn't very busy. Back is much better, I sometimes forget it which is a bit risky, but good signs. Thinking of replacing the corrugated sheet on the garage windows with a frosted wrap, should be low load on the back but let's be careful.
+
+* [2023-01-12 Thu] Microjournal                                         :jnl:
+
+09:15
+The day after hurting my back it's still very stiff but I'm able to move around lightly and did some chores. Going to have to take it pretty easy today which feels a bit boring. I might take a walk in the afternoon.
+
+* [2023-01-11 Wed] Microjournal                                         :jnl:
+
+15:35
+Just tweaked my back trying to transport mulch to the backyard. It's a bit frustrating, I'm now fully out of action and I'm not even 30 yet. This year apart from losing weight and hitting that 22:30 5k I'm going to add consistent core work into my goals.
+
+* [2023-01-09 Mon] Microjournal                                         :jnl:
+
+14:06
+Green bins were emptied just after lunch so it's back to tearing out the front yard. Super hard work in the hot sun. Struggling to find the enjoyment, but once it's cleared out the mulching will be satisfying.
+
+16:20
+Finished the front yard. Looking awesome. Now the tricky part: maintenance. Alex is looking to transplant the roses in winter when they go dormant and hopefully we can get some natives planted soon. Looking at the timestamps, it only took about 3 hours which means stuff like that is a feasible weekend job, no need to wait for holidays.
+
+* [2023-01-08 Sun] Microjournal                                         :jnl:
+
+13:14
+This morning I built some feet for my wooden balance beam using some scrap plywood glued to be 2x thickness. Cut out the shape and sanded it down nicely but when I tested it the beam was way too flexible. Abandoning the project and I'll just use the balance beam on the floor.
+
+13:16
+From now on no sugar for minimum 1 week; and then longer. I also want to set a running goal, starting tomorrow at an easy maintainable pace and going every day. No time limits or anything, just mandatory to get out of the door each day.
+
+17:05
+Just sitting out on the front porch after a game of uni disc golf. Pretty happy with the progress we've made on the front garden and looking forward to giving it another crack tomorrow once the bins are emptied. One more week off work as well. Very glad for that, I'm really enjoying the break.
+
+* [2023-01-07 Sat] Microjournal                                         :jnl:
+08:35
+Finished the balance board yesterday and it's fun. After a bit of use from me, the roommates and Coby it feels like the foam roller is getting flat spots so going to look for a denser roller today.
+
+11:46
+From YouTube video: rather than setting goals set a system for achieving the goal. A goal without a system of action is useless.
+
+* [2023-01-06 Fri] Glass onion                                          :movie:
+- My rating: {{{stars4}}}
+- This movie had a lot of similarities with Knives Out. Very witty with an interesting mystery but it misses some of the novelty of Knives Out, so feels very much the same but with a different setting.
+
+* [2023-01-06 Fri] Microjournal                                         :jnl:
+13:34
+This morning was a lot of wood working. I built a frame for Alex's fabric print which is being stapled now. Then I started on the Indoboard (balance board). Looks and feels very nice but let's wait and see once the cabathane clear coating is finished. Excited to give it a go.
+
+* [2023-01-05 Thu] Microjournal                                         :jnl:
+12:23
+Spent the morning clearing the front garden. Feel quite good about that and thinking of heading for a swim. We've ordered 2.5m2 of leaf mulch from Dapto Sand and Gravel to use as a cover to prevent seeds sprouting.
+
+17:37
+Front garden is looking super good. Top layer and partial bottom layer is mulched, but we've run out of space in the green bins to continue. Will have to wait until Monday.
+
+* [2023-01-04 Wed] Microjournal                                         :jnl:
+09:16
+Today I have a micro-goal to not use any of the following: YouTube, Instagram, Reddit. I'll replace them with reading, microblogging or puzzling.
+
+17:59
+Just did a few bits and bobs today after waking up late. I feel like I could've done better with the day. Tomorrow I'd like to take on a big task, maybe a big push on the front garden to clean it up and prepare for new natives.
+
+18:01
+So far successful in avoiding apps from the morning. Going for some controlled use of YT while I wait for Jasmine Rice and going to read before bed.
+
+* [2023-01-03 Tue] Microjournal                                         :jnl:
+09:09
+Based on a YouTube video from yesterday I want to start replacing
+scrolling on the phone with micro-journaling. Just one or two sentences
+each. I will start with a Google Keep note and transfer over to my
+notes.org file in batches.
+
+09:11
+Watched the video from The Foot Collective on Functional Assessment
+(Kajabi app). Key insight is to get more floor time as it will
+naturally cause you to move position regularly, or as they call it,
+movement nutrition.
+
+09:49
+Dropped off the last of the wedding thank you cards at the post office and
+when I was there saw a puzzle for $10. Spontaneously bought it and
+after it's done maybe we can pass it on to Rosie.
+
+* [2022-12-30 Fri] Wednesday                                             :series:
+- My rating: {{{stars3}}}
+- Adaptation of The Addams Family, focusing on the Daughter Wednesday. Good little who-done-it teen mystery.
+
+* [2022-12-30 Fri] Emacs tramp                                         :prog:
+
+M-x dired
+
+#+begin_src
+/ssh:pi@192.168.20.9:/
+#+end_src
+
+* [2022-12-30 Fri] Avatar: The Way of Water                             :movie:
+- My rating: {{{stars5}}}
+- An experience. The world building and sea creatures in this epic movie were breathtaking. Spirituality and connection to nature are strong themes and the execution was spot on.
+
+* [2022-12-18 Sun] .flac to .mp3 using FFMPEG                          :prog:
+
+Stack overflow suggestion:
+
+The following command keeps high quality on .mp3 (320 kbps), and metadata from .flac file are converted to ID3v2 format, which can be included in .mp3 files:
+
+#+begin_src sh
+ffmpeg -i input.flac -ab 320k -map_metadata 0 -id3v2_version 3 output.mp3
+#+end_src
+
+* [2022-12-13 Tue] Facade engineering                                   :eng:
+- *Presenter*: Aaron Hazelton, Michael Smith, Liam Pickett
+
+- FP1.4 report dealing with waterproofing
+- Core idea is rain screen, preventing rain from entering the building
+
+- Wind analysis - Indesco to use Checkwind
+- Liability is to complete a wind pressure report and giving
+  termination heights for membrane/flashing, we are not sizing up
+  members as these are usually tested and certified to a specific
+  level
+  
+- *Report*
+  - Introducion
+    - Intent of document
+    - Project description
+    - Development specifications / facade systems
+    - Environmental conditions
+  - Stakeholders
+  - NCC Performance Requirements
+    - Compliance with perf reqs - always performance solution
+  - Assessment method
+    - Arch details and shop drawings
+    - Glazing
+    - Waterproofing membranes
+    - Membrane upward vertical termination heights - based on
+      windspeed and AS4654.2
+    - Cladding (paying attention to joints between claddings)
+    - Air seal and vapour barriers
+    - Material compatibility
+    - Site inspection
+  - Site testing
+    - Water penetration tests (glazing)
+    - Gutter testing
+    - Membrane testing
+    - Box gutter testing
+    - Witness (the test to be witnessed)
+    - Results of testing
+  - Review of glazing
+    
+- L:\Structural Design\Books, Catalogues & Drawings\Facade
+* [2022-12-07 Wed] The Green Knight                                     :movie:
+
+#+begin_quote
+"Is this all there is?"
+"What else ought there be?"
+#+end_quote
+
+Interpretation: The search for honour is for nothing (as applied to war?)
+
+Alternative: The only point is to play a game. There is no point to the game.
+
+* [2022-12-07 Wed] Greatness                                            :philosophy:
+
+- Conviction
+- Dedication
+- Thoughtfulness
+- Discipline
+
+* [2022-12-07 Wed] Meaning                                              :philosophy:
+
+Is the meaning of life to juxtapose death and entropy?
+
+To put things in order so that we can satisfy ourselves. To eat well and stay active to keep our bodies fit. To arrange and modify our homes to suit a clean aesthetic. To turn raw materials into tangible and useful things.
+
+* [2022-12-07 Wed] Lauren and Scott's wedding (Adelaide)               :travel:
+- Jono picked us up from the airport and we drove to Lauren and
+  Scott's wedding in Maclaren Vale- Stayed the night with Graham and
+  Joanne and had brunch at the wedding venue the next day with Alex's
+  cousins- Caught the train back to Adelaide to our hotel at Adelaide
+  Oval
+- Scooted in to play a round of disc golf at Parklands, and ended up
+  having to slip through the Adelaide 500 track to get there. Realised
+  we'd just snuck into a concert area so played disc golf, went out to
+  get food, then snuck back in and watched The Killers- Caught train
+  out to Glenelg for brunch with Lauren and Scott before meeting the
+  Showels and walking The Boardwalk from Seacliff to Hallett Cove (not
+  the whole way, but 7km return)
+- Went to see Lauren and Scott's house then train back in- Walked
+  through Rundle Mall and ate a quick burger at Smiley Vegan
+- Alex taught me how to improve photography with rule of thirds and
+  we've been having photo competitions
+- Had a walk around at night, vego yum cha place closed early so found
+  a ramen place- Next morning went into North Adelaide and had pie and
+  sausage roll breaky at a bakery. Walked back to hotel through North
+  Adelaide suburbs
+- Checked out then went to botanic gardens and lunch at Two Bit
+  Villans- Ran out of time for another disc golf so ended up spending
+  a bit of time wanting the mask and then bus to the airport
+- Blue Emu bus back to carpark guy hoped on and started yelling at the
+  driver because he had to wait 40min. His shirt said "Don't get
+  angry, get even"
+
+* [2022-11-29 Tue] Rewilding the body                                   :pod:
+
+Tony Riddle on Rich Roll Episode 717
+
+- Tony is a barefoot long distance runner
+- Rewilding the body is all about using natural movement to promote
+  strength and mobility
+- Being on the floor and moving positions regularly as opposed to
+  sitting in chairs
+- Being playful with movement
+* [2022-11-26 Sat] PTD column fixity                                    :eng:
+
+- RCB should be pin-pin columns so that all lateral load is transfered to the core
+- PTD should be pin-pin, but long columns to be converted into walls to give more accurate deflection results
+* [2022-11-08 Tue] Inside Man                                            :series:
+- ars3}}}
+- ime mystery focused on an ex-criminologist solving cases on death row and a vicar caught up in a rapidly devolving situation with increasing stakes.
+
+* [2022-11-03 Thu] The art of mass timber                               :eng:
+- Title: The Structural Engineering Podcast 69: The art of mass timber
+- Interviewee: Robert Malczyk
+- Fast construction - saving on labour, plant hire, crane, etc 
+* [2022-10-21 Fri] Risk and Redundancy                                  :eng:
+
+- All designs reviewed by Chartered engineer
+- Any complex/critical parts should be identified to the reviewer
+- Complicated (hanging walls/transfers/etc) put risk into the job
+- Value from us can come from eliminating complexity if we can
+* [2022-10-14 Fri] RAM concept                                          :eng:
+- Presenter :: Dave Southgate (Indesco)
+
+- Work through criteria tab + materials (should be cornet)
+- Bring in dwg (work way down lhs)
+- Walls can't overlap
+- Add area loads + perimeter loads
+- Requires nomination of design strips - use auto gen and adjust (as per AS3600)
+- Strands can be bulk editted
+- Stress end to be nominated
+- Analysis - run along the top tool bar
+- Punching shear - have to identify columns to do check on
+- Very sensitive to creep faction (deflections) (ram typically more conservative / larger deflection)
+
+* [2022-10-13 Thu] MIDAS Civil                                          :eng:
+
+- Used for design of bridges
+- Youtube tutorial: [[https://www.youtube.com/watch?v=ONzSQBbIQ78][Super T Bridge Design as per AS 5100]]
+- Model setup guide (not great): https://www.civilax.com/midas-training-super-t-girder-bridge-as-per-as-5100-with-midas-civil/
+
+* [2022-10-07 Fri] Joints in concrete floors and pavements              :eng:
+
+- Presenter: Arslan Awan (Leviat)
+
+  - Industrial floors SOG design suggested guideline is TR34 4th edn
+  - 1.5mm joint opening results in 5% strength reduction (agg. interlock and key joints)
+  - Design can be done by assuming 50% shear goes to dowel and 50% to ground
+  - Sawcuts within 4hours (summer) to 18hours(winter)
+  - Square dowel provides lateral movement +/-3mm up to 10mm (look to TR34.4 for design)
+  - Dowel alignment is important
+  - No sharp corners as they will break off
+  - Punching is normal mode of failure so for normal thickness smaller dowels often better
+* [2022-09-26 Mon] How Online Presence Can Help Your Engineering Career :eng:
+- Title: TSEC 86: How Online Presence Can Help Your Engineering Career
+- Interviewee: Luis Duque, Bridge Engineer (Foothills Bridge)
+- Use of LinkdIn/Insta/Personal blog to share what you are learning
+- Advocates blogging or podcasting to build internet presence
+- Advocates for networking, building connections with others in industry
+- Additional work outside work hours: tip is to work when energy levels are there, not forcing it, and consistency
+* [2022-09-12 Mon] Our Wedding                                          :jnl:
+
+This past weekend was our wedding, which was more than I could have
+hoped for.
+
+We travelled to the Blue Mountains with Alex's mum, dropping her off
+at her AirBNB in Lithgow and then dropping of the car full of flowers
+and alcohol at the venue (our friends would also drop off lawn games,
+blankets, alcohol and other supplies later that day). We then drove
+back to Blackheath to arrive at our AirBNB in Blackheath (51 Hargrave
+Drive). The place was stunning. An awesome house with views over the
+golf course pond.
+
+The Friday night we had a bunch of frisbee friends over and Rosie
+organised some wedding games. First was everyone had gotten us
+presents and we had to guess them by feel (and who they were from).
+Second was a pass the parcel with each layer being a couples question
+for us to answer, both for ourself and each other before comparing
+answers. Afterwards it was a busy evening of Alex and the girls making
+the bouquet and me and Rory doing the seating plan.
+
+The morning was nice and quiet for us. We woke at about 7 and Alex
+drew us a bath, made me a surprise tea and had a little card waiting.
+As we sat in the bath and I read the card I teared up a bit, something
+that I didn't expect, but felt so nice. I didn't think I could cry,
+but at that moment I realised I might be crying for the ceremony.
+
+We then drove into Blackheath to Hounslow cafe to grab Alex and coffee
+and ate some pastries that Celia had picked up for us from a shop in
+Sydney. We finalised the seating plan together and Alex edited our
+shared vows that I'd prepared previously. Alex then drove in for hair
+and makeup giving me some alone time at the house.
+
+We were ready just before 1pm when our families started to arrive for
+the tea ceremony. We served Dragon Well tea to Alex's mum, my parents
+and Grandma and Nan. It was a really nice occasion and I'm so glad we
+did it for Alex. Alex's dad would be so proud of her.
+
+From there I left for Secret Creek with the family which was a fun
+trip. I ot there with my bow tie in my pocket; the one job I had which
+would only be done at the last minute. The was a lot to do, but
+luckily the guests all helped so much. We set up the ceremony area
+thinking the start-stop rain from the morning should hold while others
+set out the seating arrangement name tags. I met the celebrant in
+person and signed some pre-ceremony documents. At about 2:45pm when
+the guests were meant to start coming up to the ceremony location I
+realised the ring was back at the reception area and I needed to pop
+on the bow tie, so headed back down. We gathered the guests, I grabbed
+the ring to give to Connor and had mum put on the tie. The walk up was
+nice, I got to greet some of the guests and at the top and had a nice
+greeting with Chris and Aidan.
+
+Time was moving very fast and I was so aware of it. Not long after we
+were gathered at the ceremony Alex arrived and was driven up in the
+golf cart. People were seated or standing and I was by myself out
+front. I remember as Alex was walking down the aisle some of the
+guests were glancing back to see how I was reacting. Alex was so
+beautiful. She came down the aisle with her jacket on, stopped to pass
+it to her mum and we held hands. Kate, our celebrant, gave a really
+nice speech, telling our story. It was then time to say "I do"
+(happened so fast). We flipped a disc and I called the correct
+outcome, meaning I would be the first to read our shared vows.
+
+As I read the first sentence my throat was stuck and I struggled to
+speak. I had to take many pauses and I could feel the emotion so
+strong. I didn't tear up, but I definitely lost my voice as I fell for
+Alex. She was able to speak the vows see eloquently and gracefully.
+
+Kate then read the binding of the hands and we were married. We were
+showered with confetti and then had moments to take photos with family
+and friends before wandering back down to the reception area. Just at
+this time it started to sprinkle. The weather had held for us
+perfectly.
+
+After a little while the photographer took us to Hassan's Point for
+photos. We were racing the weather and when we got to the lookout it
+was crazy. Strong wind gusts were being pushed up the cliff face and
+the rain was coming. Between photos we were putting the jacket on Alex
+to keep her warm. We even sheltered under a cave for a while, hiding
+from the rain. The photographer was loving the dramatic conditions and
+then the sun started beaming out from behind the clouds. Rain was
+flying upward from over the ledge and the light was stunning. It was
+so fun, what an adventure.
+
+Back to the wedding and we were announced into the room before dinner.
+Dinner was incredible as we knew it would be and then it was time for
+speeches. Alex's mum was short and lovely; welcoming me to the family
+and passing on Foo's blessings. Dad gave a little bit of my story and
+talked about how they fell in love with Alex straight away. He was
+choked up as well throughout the whole speech. The final speech was
+Maddie, and she did a nice job. We sang happy birthday to Dad in front
+of the cake and then it was time for the first dance. We had a bunch
+of people join and it was actually one of the really nice moments.
+People then came back to eat the cake. We then went outside for some
+sparklers which tickled Alex's mum's fancy and seemed to create some
+really nice photos.
+
+It was after this that time slowed to normal pace and we were able to
+enjoy talking with friends and family and spending some relaxing time
+together. At the end of the night we tried to give away as many
+flowers as we could and we left in the taxi back to Blackheath. Once
+we got home we had a nice little dance together and opened up our
+cards. We snuggled up in bed and had nice little sleep.
+
+The next day we went to the venue to pick up the left over alcohol and
+supplies with my parent and said our goodbyes. We picked up Alex's mum
+and drove into Hounslow at Blackheath to have brunch with our friends
+and did a small walk at Hargrave's lookout. We then drove home to
+conclude the weekend.
+
+The day was amazing, incredible and beautiful. I'm so grateful to my
+friends and family. Gemma MC'd the night and was so punny and great.
+She also was a great rock to lean on helping with random jobs and
+herding guests. Aidan and Chris were so good to talk to; even though
+we rarely see each other our friendship is so comfortable and nice. I
+loved seeing my family as always. Nan and Grandma looked so proud and
+it was so nice to have them there. Rosie was great and wise, giving us
+lots of good advice the evening before the wedding and arranging the
+games. The celebrant was amazing, and I'm so glad we chose her. James
+the photographer had such a nice energy and his enthusiasm was so fun.
+The photo sneak peak I've seen so far is incredible and we are
+obsessed.
+
+Finally, I'm so grateful to Alex. She put in so much hard work to get
+the wedding to where it was and I'm so happy that she was rewarded
+with so much amazing luck and fortune on the day. She was so
+beautiful, glowing and graceful. I'm so lucky to have her and it's
+something I never want to forget. It was the perfect day and I like to
+think that our personalities shone through in how it all went. I'm
+looking forward to spending the rest of my life with her.
+
+* [2022-09-06 Tue] Automation and Communication in Structural Engineering :eng:
+- Title: TSEC 85: Automation and Communication in Structural Engineering: Shaping the Future of Industry
+- Interviewee: Michael Bolduc (Simpson Gumpertz & Heger [SGH])
+- Use of BIM/Revit to coordinate between disciplines
+- Importance of communication with architect due to faster pace of projects
+- Future direction is having BIM model as project deliverable
+- Do not detail too early in design to avoid time consuming changes
+
+* [2022-08-08 Mon] Innovative Ways to Design and Build with Concrete    :eng:
+- Title: TSEC 83: Innovative Ways to Design and Build with Concrete
+- Helix reinforcement, generally used for slab on ground
+- Urged people to get involved with standards committees
+- Looking at efficient performance based design (yield line analysis, etc) 
+
+* [2022-07-27 Wed] Knives Out                                           :movie:
+- My rating: {{{stars5}}}
+- Murder mystery following the investigation of the murder of the patriarch of a wealthy and dysfunctional family, starring Daniel Craig. Really enjoyed with a few interesting plot twists.
+
+* [2022-06-22 Wed] Wedding plans and work trip                          :jnl:
+
+Reading through my previous entries I'm surprised that I've been
+talking about loosing weight since 2019. That's 4 years. It's somthing
+that I'm not proud of and is causing me to avoid certain activities
+(swimming, beach, hikes to waterfalls, etc).
+
+We booked in our wedding for September 10 and I'm pretty focused on my
+body image going in so it's time to really start focusing on weight
+loss. I've already started building a habit of going to the gym and I
+want to add in bike riding and running. I might also try out the one
+meal a day idea to see how it goes. I know what to do, but need to
+build in habits.
+
+Work is going well. With Aidan leaving I'll have to start taking on
+more responsibility, especially with management of the drafting team.
+I look forward to the challenge.
+
+Volunteering to do jobs around the company seems to be serving me
+well. Two jobs with Aaron, one on blast loading and one on waffle
+slabs/helix SFRC are giving me the chance to learn new things from
+scratch. I've also done a presentation on blast loading, with an
+upcoming presentation on waffle slab design with CORD software.
+
+I'm currently on my way home from a trip to Melbourne to meet and
+induct three new undergraduates who have just joined (two structural
+engineers and one drafty). Putting my hand up to do that was great.
+Even though I thought it was inconvenient I had a few cool
+experiences:
+
+- Flight from Wollongong -> Essendon (super convenient)
+- Visit Melbourne office ("The HUB"). Cool retrofitted office space in
+  an old building next to Southern Cross station
+- Stay in a 5 star hotel (Movenpick) with heated pool/spa and sauna
+
+In hindsight I should have stayed an extra day since the 9am-10:30
+flight got me stuck on an all stop train so the trip back is going to
+be from 7:30am to 1pm... Inducta doesn't work on the train (no
+internet dongle) so I haven't been able to do any work. Nice views
+though. I should come to northern suburbs of the gong more often (bike
+ride?)
+
+* [2022-06-08 Wed] Whitsundays sailing                                 :travel:
+
+This was a trip organised by Mandy. We had 10 people (Myself, Alex,
+Gemma, Andy, Holly, Matt, Fletch, Audi, Mandy, Tom) on a double hull
+catamaran for 10 days.
+
+- /Wednesday, 25^th May 2022/ --- Train to Sydney and fly to
+  Proserpine airport arriving in the afternoon. We caught a private
+  bus to Shute Harbour to our catamaran. We spent the night on the
+  boat at the pier.
+- /Thursday, 26^th May 2022/ --- The morning was spent getting an
+  induction from Gil on boat operation and local navigation. Without
+  any experience driving within the group, I ended up as the official
+  captain. We were taught how to drive under engines and also with the
+  head sail out, but not the main sail. After lunch we dropped Gil off
+  and headed for our first anchorage at Happy Bay (after the moores
+  were taken at Sandy Bay). Happy Bay had an abandoned resort which we
+  explored on the Friday morning. Gil's catch phrase: End Of Holidays
+- /Friday, 27^th May 2022/ --- From Happy Bay we sailed across to
+  Sawmill Bay. First time using the headsail and getting comfortable
+  with it. Sawmill Bay had a short walk which took us around to
+  another beach.- /Saturday, 28^th May 2022/ --- In the morning took
+  the summit track up to Whitsunday Peak. Unparalleled views. Great
+  place for an engagement. In the afternoon we did some snorkelling at
+  False Nara and then moved on to Nara inlet for the night. No
+  swimming there due to sharks, which we didn't get to see. Good calm
+  location for the night.
+- /Sunday, 29^th May 2022/ --- The next day we took the track up to
+  the Cairne while the girls visited another abandoned resort and
+  found some coconuts. The walking track was deemed strenuous and
+  bloke at the bottom told us we would perish. It wasn't too bad.
+  Spent the night at Macaow Inlet.
+- /Monday, 30^th May 2022/ --- Drove to Hamilton Island (Hamo) and
+  docked for the night. Afternoon we did a hike to Passage Peak.
+  Picked up Mandy from her flight. Waiting for Tom to arrive on the
+  Tuesday morning since he had Covid symptoms. In the afternoon we
+  played some table tennis and had a swim in the resort pools.
+- /Tuesday, 31^th May 2022/ --- Sunrise at One Tree Hill, then the
+  boys played putt putt. Did some sailing on the mini yaughts in the
+  bay at Hamo and then Tom arrived. We set off and arrived at
+  Whitehaven. Spent the afternoon at Whitehaven Beach.
+- /Wednesday, 1^st June 2022/ --- From Whitehave we crossed the
+  channel to Chalkies for some snorkelling. Spent some time trawling
+  for a moore. Snorkelling was good. In the afternoon we stopped at
+  Hill Inlet for some awesome views. Stayed at Tongue Bay and saw
+  heaps of turtles breaching for air.- /Thursday, 2^nd June 2022/ ---
+  Andy's birthday and a few hungover passengers. We drove to Butterfly
+  Bay and did some kayaking around the reefs. Great spot right in the
+  end of the inlet where we saw stingrays, turtles, and small reef
+  sharks. Definite highlight.- /Friday, 3^rd June 2022/ --- Travelled
+  down to Sandy Beach via Langford Reef and Cockatoo Point.
+  Snorkelling at Langford reef was awesome. Swum with a small turtle
+  for a while and saw the stainless steel (Terry the) turtle. Cockatoo
+  Point was even better. The reef there was amazing and was able to
+  swim with an even larger turtle. Fish life was the best we'd seen
+  here. At Sandy Beach (South Molle Island) we did an evening hike to
+  Balancing Rock and abandoned (cyclone) resort. Saw a bunch of
+  butterlies through the trees which was pretty magical. Lots of fish
+  around the boat. Flying fish ran head first into boat.- /Saturday,
+  4^th June 2022/ --- The last drive back to Shute Harbour only took
+  30 minutes or so and we dropped off the boat and caught a maxi taxi
+  to Airly Beach. We spent a couple of hours hanging out at the lagoon
+  and then taxied to our flights back home.
+* [2022-06-05 Sun] Slapstick                                           :book:
+- Author: Kurt Vonnegut
+- My rating: {{{stars5}}}
+- A bizarre story with a meandering plot, but jammed full of thought provoking ideas and very entertaining read.
+
+* [2022-05-16 Mon] CORD software training                               :eng:
+- Learnt software CORD for design of residential slabs to AS2870
+
+* [2022-05-01 Sun] I Am Legend                                         :book:
+- Author: Richard Matheson
+- My rating: {{{stars3}}}
+- Great moral twist at the end of the book which isn't in the Will Smith film, coming from a post-apocalyptic vampire world.
+
+* [2022-04-03 Sun] To Be Taught, If Fortunate                          :book:
+- Author: Becky Chambers
+- My rating: {{{stars4}}}
+- A team of astronauts are sent to ethically research four different planets and their species. Thought provoking, interesting and very good ending.
+
+* [2022-02-13 Sun] The Poppy War                                       :book:
+- Author: RF Kuang
+- My rating: {{{stars3}}}
+- Great story about a girl who gets into a military school and learns of her rare magical abilities. Didn't like the main character much and the writing wasn't the best, but entertaining read. 
+
+* [2022-01-02 Sun] Flowers for Algernon                                :book:
+- Author: Daniel Keyes
+- My rating: {{{stars3}}}
+- About an experiment used to increase the intelligence of a mentally challenged patient. Interesting style of writing and emotional story. 
+
+* [2021-10-01 Fri] Seismic design of post installed anchors             :eng:
+
+- Presenter: Damish Zuberi (Hilti)
+
+  - Based on latest update to AS 5216
+  - Bolts carry a seismic category rating (C1 or C2)
+* [2021-09-30 Thu] Ultra-floor design                                   :eng:
+- Presenter: Aaron Hazelton (Indesco)
+
+  - Precast prestressed beams with concrete topping
+  - Design always to capacity
+  - Focus needs to be on detailing
+    
+* [2021-09-23 Thu] Site inspection report                               :eng:
+
+** Details
+- Location
+- Job number
+- Date
+- Inspection stage
+- Builder contractor
+- Issued to/Inspected by/Signature
+  
+** Comments
+Indesco inspected the preparations for XXX. At the time of inspection
+reinforcement had been installed up to XXX. All work appeared to
+satisfy the desgn intent with the following comments:
+
+** Instructions
+Prior to pour, contractor to ensure:
+- Appropriate cover is maintained
+- Site is cleared of debris
+- Concrete is properly vibrated/compacted
+
+* [2021-09-03 Fri] What is our role as Structural Engineers             :eng:
+- Presenter: Michael Smith (Indesco)
+
+  - What makes us good? Cost effective designs/efficient designs
+  - Mixed use/resi, all you need to do is line up units with car parks underneath
+  - Start at the basement layout, put columns in the grid
+  - Try to remove transfer in the resi above
+  - 8m/200 slab (excluding end spans)
+  - Simple designs provide simpler drafting, simpler details, simpler design
+
+  - Design steps: eng markups early in the project, drafting later
+  - Simplify as much as possible
+  - Nut out design before drafting
+  - More time spent during design can lead to less time on construction phase RFIs
+
+* [2021-08-30 Mon] Dincel Wall Systems                                  :eng:
+- Presenter: Robert Merjane, robertm@dincel.com.au
+
+- Water proof walls and corners (slab to wall connection require membrane)
+- Water proofing recommendations in the documentation
+- Self compacting concrete recommended for the forms to prevent air pockets
+- Otherwise we are relying on builders to properly compact
+- Corner can slide up and down (good for inspections)
+- Design recomendation is to treat PVC as void (apparently conservative) 
+- Look into UTS paper for testing of strength
+- GPR scanning good for finding air voids (other option is thermal scanning)
+- FRP can be calculated by Eurocode (allowed by AS3600) and Dincel have a spreadsheet available on request
+
+* [2021-08-28 Sat] E-bike conversion                                    :diy:
+
+https://spectrum.ieee.org/electric-bike
+
+** Components
+*** Lithium-ion battery
+*** Motor $80
+**** Flipsky 190kV, $113
+https://www.amazon.com/Flipsky-Upgrade-Brushless-Electric-Skateboard/dp/B08QZCD3YP/ref=sr_1_6?dchild=1&keywords=flipsky+hardened+140kv&qid=1624719200&s=toys-and-games&sr=1-6
+*** Electronic speed controller $120
+*** Arduino Nano $20
+*** Hall sensor x2 $12
+*** Momentary rocker switch $6
+*** Drok meter $15-30
+*** Fuse
+
+* [2021-08-15 Sun] WALLAP                                               :eng:
+
+- Presenter :: Dave Southgate
+
+** Setting up the model
+1. Input soil parameters -> can choose soil params from linked file
+   (good for same site)
+2. For Ka/Ko F1 allows choice of \phi
+3. Wall FE (finite element) length -> auto calculated
+4. Make sure prop area is large enough otherwise it won't grab. Check
+   moment diagram to confirm.
+5. Prop free length -> length of prop in active soil block (take as
+   45deg. from wall which is conservative)
+   - NB. shoring contractor will give free length + props. We should
+     provide free length minimum value.
+6. Prop prestress set to zero for initial analysis.
+7. Excavate 500 below prop press f1 26 a tag to to give space for
+   install
+8. BM options: nonlinear modulus parameter -> set to wall height
+9. Run analysis. Check deflection and prop forces -> NB. horo
+   component only is shown by WALLAP
+10. Lock off load should be 60-70% of the final load
+    
+** Notes
+- Deflection should be small if sensitive structures around (20mm or less). To be agreed upon with geotech and client.
+- Rule of thumb: one anchor per basement level. we can cantilever one floor at top.
+- Email: /Geotechnical design parameters - from Thomas/ - consernative values.
+- tanδ/tanɸ : wall friction coefficient for cohesive soil -> set to 0.667 for cohesive soils
+- Don't directly engage geotech since they aren't insured
+- Shorings AH likes 2.8m, DS likes 2.4m spacing for soldier piles. Unless smaller required
+- Anchor -> 15deg gives good balance between min free length & cos angle (for load)
+- Bug: young's modulus won't go past 2e7 when 2e8 is needed. Go back to update
+
+* [2021-08-07 Sat] Fibre reinforced polymers                            :eng:
+
+- Search terms: GFRP, CFRP, AFRP
+- [[https://bestfiberglassrebar.com/applications/design-codes/][Design guides and standards]]
+
+* [2021-07-24 Sat] Raspberry pi                                        :prog:
+
+** Setup instructions
+*** Raspbian/ssh setup
+1. [X] ssh in to raspberry pi with =ssh pi@raspberrypi.local=
+2. [X] Set a new password with =passwd= (default is =raspberry=)
+3. [X] Update software =sudo apt update && apt upgrade=
+4. [X] Run =raspi-config= to change settings
+5. [X] Set a static IP address on router
+   - Get MAC Address of pi
+   - Get pi IP address
+   - Under =Advanced Setup > LAN=, add static IP for pi (use above MAC and IP)
+
+*** Pi-hole setup
+1. [X] Install pi-hole software
+   - Install with =curl -sSL https://install.pi-hole.net | bash=
+   - Select upstream DNS (cloudflare)
+   - Select block lists (leave all ticked)
+   - Accept IP address (check it's same as set eariler)
+   - Get details:
+     - IPv4: ?
+     - IPv6: ?
+     - Install log is in /etc/pihole
+     - Web interface: http://pi.hole/admin or http://192.168.20.8/admin
+   - Reboot pi to allow lightpd startup
+2. [X] Set the Router DNS, (under WAN settings):
+   - Original settings:
+     - Primary DNS server: 8.8.8.8 (Google)
+     - Secondary DNS server: 220.233.0.4 (Exetel)
+   - New settings:
+     - Primary DNS server: 192.168.20.8 (Pi-hole IP)
+     - Secondary DNS server: 192.168.20.8 (Pi-hole IP)
+3. [X] Add extra ad lists
+   - Found on https://firebog.net/
+   - Updated under =Group Management > Adlists=
+
+*** Samba NAS setup
+**** Installation of Samba
+1. [X] Setup directory structure in file:/ssh:pi@192.168.20.8:/home/:
+   #+begin_src bash
+     sudo mkdir /home/shares sudo mkdir /home/shares/public sudo chown
+     -R root:users /home/shares/public sudo chmod -R ug=rwx,o=rx
+     /home/shares/public 
+   #+end_src
+2. [X] Install samba =sudo apt install samba samba-common-bin=
+3. [X] Edit the config file file:/ssh:pi@192.168.20.8|sudo:192.168.20.8:/etc/samba/smb.conf
+   - To setup password, under #### Authentication #### add =security = user=
+   - To allow writing of files, set =read only = no=
+   - Add the config for public folder:
+     #+begin_src conf
+       [public] comment = public storage path = /home/shares/public
+       valid users = @users force group = users create mask = 0660
+       directory mask = 0771 read only = no 
+     #+end_src
+4. [X] Restart samba =sudo /etc/init.d/smdb restart=
+5. [X] Add user =sudo smbpasswd -a pi=
+
+**** Add a multimedia device
+https://howtoraspberrypi.com/create-a-nas-with-your-raspberry-pi-and-samba/
+
+If you want to add a USB key or a hard drive to have more storage, it
+is obviously possible. To simplify things if you want to connect
+multiple devices, it is best to connect/configure devices one by one.
+
+Start by connecting your device to your Raspberry Pi. The first thing
+to do after that is to detect what is the name that the Raspberry has
+associated with it. To do this, execute the command
+
+=dmesg=
+
+Generally, the name of the media is sda1 but this can change
+especially if you have several devices connected.
+
+Be careful, your device must be formatted with a Linux file system,
+like ext3 or ext4. If it does not, you can format it by using the
+following command (replacing sda1 with the name of your device if it
+is different).
+
+=umount /dev/sda1= =sudo mkfs.ext4 /dev/sda1=
+
+Then create a directory where the device will be mounted for access
+via the NAS and add read and write rights.
+
+=sudo mkdir /home/shares/public/disk1= =sudo chown -R root:users
+/home/shares/public/disk1= =sudo chmod -R ug=rwx,o=rx
+/home/shares/public/disk1=
+
+The name of the folder (disk1 in the example) does not matter, put the
+one you want to be able to find it easily on the network. Once done,
+mount the device in this folder.
+
+=sudo mount /dev/sda1 /home/shares/public/disk1=
+
+Mount the devices when starting the Raspberry Pi
+
+At this stage of the installation, there is indeed a problem. When
+restarting the Raspberry Pi, peripherals do not necessarily mount. To
+correct this, edit the fstab file.
+
+=sudo nano /etc/fstab=
+
+and for each device, add at the bottom of the file the following line
+(being careful not to be mistaken about the name of the device and the
+directory in which it must be mounted)
+
+=/dev/sda1 /home/shares/public/disk1 auto noatime,nofail 0 0=
+
+*** Plex media server setup
+1. =sudo apt install apt-transport-https=
+2. Install plex key =curl
+   https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add
+   -=
+3. Add Plex repo =echo deb https://downloads.plex.tv/repo/deb public
+   main | sudo tee /etc/apt/sources.list.d/plexmediaserver.list=
+4. Update pkg lists =sudo apt update=
+5. Install Plex =sudo apt install plexmediaserver=
+
+** Raspberry Pi Zero W
+*** General
+- MAC Address: =00:50:b6:17:43:5c=
+- IPv4 address: =192.168.20.8=
+- IPv6 address: =2406:3400:211:ea70:59d3:3e65:57b5:6ae8=
+- Hostname: =pi-hole=
+
+*** Pi-hole
+- Web interface: http://192.168.20.8/admin
+- Admin Webpage password: ccXbeLCk
+- Router DNS:
+  - Original settings:
+    - Primary DNS server: 8.8.8.8 (Google)
+    - Secondary DNS server: 220.233.0.4 (Exetel)
+  - New settings:
+    - Primary DNS server: 192.168.20.8 (Pi-hole IP)
+    - Secondary DNS server: 192.168.20.8 (Pi-hole IP)
+
+*** Samba NAS
+**** Installation of Samba
+1. Directory structure in file:/ssh:pi@192.168.20.8:/home/:
+2. Config file:  file:/ssh:pi@192.168.20.8|sudo:192.168.20.8:/etc/samba/smb.conf
+
+** Raspberry Pi 4
+*** General
+- MAC Address: =dc:a6:32:52:12:10=
+- IPv4 address: =192.168.20.9=
+- IPv6 address: =2406:3400:211:ea70:c48a:57d1:a5e1:f1fd=
+- Hostname: =rpi4=
+
+*** Argon One case
+Install Power Button and Fan control
+- =curl https://download.argon40.com/argon1.sh | bash=
+- Use =argonone-config= to configure fan
+- Use =argonone-uninstall= to uninstall
+
+*** Pi-hole
+- Web interface: http://192.168.20.9/admin
+- Admin Webpage password: UeHrgzIt
+- Router DNS:
+  - Original settings:
+    - (Old) Primary DNS server: 8.8.8.8 (Google)
+    - (Old) Secondary DNS server: 220.233.0.4 (Exetel)
+    - Primary DNS server: 172.30.30.10 (AGL)
+    - Secondary DNS server: 172.30.30.11 (AGL)
+  - New settings:
+    - Primary DNS server: 192.168.20.9 (Pi IP)
+    - Secondary DNS server: 192.168.20.9 (Pi IP)
+
+*** Samba NAS
+**** Installation of Samba
+1. Directory structure in file:/ssh:pi@192.168.20.9:/home/:
+2. Config file:  file:/ssh:pi@192.168.20.9|sudo:192.168.20.9:/etc/samba/smb.conf
+**** Logging on
+Username: pi Password: Abraham13
+*** Plex media server
+Web interface: 192.168.20.9:32400/web/
+*** Syncthing
+Web interface at http://192.168.20.9:8384
+
+**** Installation
+- Install syncthing using apt
+- Run syncthing (sets up default config)
+- Edit the config file file:/ssh:pi@192.168.20.9:/home/pi/.config/syncthing/config.xml
+- Replace the line =<address>127.0.0.1:8384</address>= with the pi ip =<address>192.168.20.9:8384</address>=
+- Set up service: file:/ssh:pi@192.168.20.9|sudo:192.168.20.9:/lib/systemd/system/syncthing.service and add:
+  #+begin_src conf
+      [Unit] Description=Syncthing - Open Source Continuous File
+      Synchronization Documentation=man:syncthing(1)
+      After=network.target
+
+      [Service] User=pi ExecStart=/usr/bin/syncthing -no-browser
+      -no-restart -logflags=0 Restart=on-failure RestartSec=5
+      SuccessExitStatus=3 4 RestartForceExitStatus=3 4
+
+      # Hardening
+      ProtectSystem=full PrivateTmp=true
+      SystemCallArchitectures=native MemoryDenyWriteExecute=true
+      NoNewPrivileges=true
+
+      [Install] WantedBy=multi-user.target 
+  #+end_src
+
+- Now restart:
+  #+begin_src sh
+      sudo systemctl enable syncthing sudo systemctl start syncthing
+      
+  #+end_src
+
+* [2021-07-23 Fri] Post tensioned slabs                                 :eng:
+
+** Design notes
+*** Layout
+- Prelim spacing is dependant on required P/A for crack control.
+  1.4MPa for moderate control
+- Edge stressing preferable
+- Otherwise live ends should be 1m from obstructions and otherwise
+  0.8m from edge (where edge stress not allowed but not obstructed)
+
+*** Top reo
+- Required to carry 25% of negative moment in column + 2* half mid
+  spans
+- Use a min of 4N16s in each direction
+
+** PT Macro export
+1. Save PTD file
+2. Label the tendons clockwise in order of:
+   - Xmin
+   - Ymax
+   - Xmax
+   - Ymin
+3. Check the number of tendons labelled (T01 -- TN) is correct
+4. Run and save the PTD model
+5. Export the drape values at high points (=Settings > Viewing >
+   Tendons > High points= = =True=) with =Reports > Duct profiles= to
+   =DuctHeight_report.$hlp.txt=
+6. Repeat for mid/low points in =DuctHeight_report.$mp.txt=
+7. Open Excel macro file and enter path/file locations in =Home= tab and
+   run the =Shop Drawings= macro
+8. For Xmin, Ymax, Xmax and Ymin (in order) take the corresponding
+   values from the =Tendon NS= tab and paste to a spare space in the
+   =Tendon No= tab
+9. Take the min/max value and for each value in the column replace
+   with the datum value
+10. Click the =Strand Number Location= macro
+11. Save the excel macro file
+12. Open the CAD template and delete any drawings still there
+13. Run VBAMAN and load =Import v1.XX.dvb=
+14. Click =Macros= and run the macro, giving the correct path and
+    filename of the excel macro workbook
+15. Check and save the CAD dwg
+
+** Deflection plots
+
+- From :: Aidan McCabe
+
+Just got a walkthrough by Dave on how he produces his deflection
+plots. Thought I’d put it down into words so we can be consistent
+across the office.
+
+1. Open PTD file. Solve model and display deflection. Make sure your
+   mesh is refined as much as possible (Dave likes 0.75m) and you have
+   colours displayed in your deflections.
+2. Take a screen shot of legend in top left of deflection plot.
+3. Export this display to CAD.
+4. In CAD, freeze the following
+   - Text at bottom of export
+   - Slab outline
+5. In CAD, scale the output up (should be by 1000).
+6. Drafters can then use this file to import into their drawing set.
+   Send them the .dxf and the saved legend. They have a template set
+   up for the legend where they can simply enter the numbers for that
+   plot.
+
+This process should be repeated for long term and short term
+deflections. Often the deflection plot itself won’t look any different
+between short and long term so the same plot can be used with two
+legends on the sheet, one for each case.
+
+** Review process
+
+- [ ] Page through to check overall content/presentation
+- [ ] Check correct strand diameters/specs
+- [ ] Check the material specifications
+- [ ] Check for location of each duct
+- [ ] Check number of strands in each duct
+- [ ] Check live/dead end locations
+- [ ] Check midpoint hat height values
+- [ ] Stamp drawing
+
+* [2021-07-21 Wed] Temporary Shoring and Propping Design in Australia   :eng:
+
+- Presenter 1: Ying Tay (Golder Associates)
+  - Drained state is more conservative
+  - WALLAP uses beam-spring FEA, doing limit state equilibrium as well as FEA for servicability limit state
+  - Better to spend money on good inputs & use a basic model
+  - Look out for is blow out / floor heave (particularly in clay)
+
+- Presenter 2: Sudhir Raina (Coates)
+  - Glorified advertisement, not much relevance to topic
+
+- Presenter 3: Harsh Bhambra (Delta Group)
+  - Example project: London Hotel excavation, Melbourne
+
+* [2021-06-24 Thu] The future of precast concrete                       :eng:
+
+- Presenter: Robert Aldrich (John Holland Group)
+
+- Temporary timber molds for <5 pours, otherwise steel molds.
+- usage of off the shelf reinforcement where possible.
+- Larger size gives lower cost per meter, but requires transport/craning.
+- Sustainability
+  - Can be assembled + reused
+  - Thermal mass, may not need finishes
+- Innovation
+  - Automated facilities developing creation of images (graphic concrete) using custom membranes.
+  - Smart precast pavement
+- References
+  - Australian Precast Concrete Handbook
+
+* [2021-06-18 Fri] Eshell batch actions                                :prog:
+
+** Changing DOS to UNIX line endings
+While editing my recipes website, I found that emacs is using the DOS
+line endings explicitly (now that I'm using ubuntu). When using
+Windows get just overrode the line endings so I didn't see the problem
+then.
+
+To explicitly change from DOS to UNIX line endings we use:
+
+=M-x set-buffer-file-coding-system= and select =undecided-unix=
+
+Rather than repeating this action for 100s of files, I wrote an elisp
+function and applied it with eshell. Here is the eshell function:
+
+#+BEGIN_SRC emacs-lisp
+  (defun jrm-dos-to-unix (file) (find-file file)
+    (set-buffer-file-coding-system 'undecided-unix) (save-buffer)
+    (kill-buffer)) 
+#+END_SRC
+  
+I then evoked it with eshell using: $ =for f in ${fdfind -g *.org -c never} {jrm-dos-to-unix $f}=
+
+Some notes:
+- fdfind is used instead of fd since fd is reserved in ubuntu
+- -g *.org was used and rerun for .html to allow globbing
+- -c never is needed to strip the colour codes from the fd output
+
+** Using imagemagick to process images
+*** Reduce file size
+
+To reduce the size of a folder of images (used for dilapidation
+reports where they are being put in a word doc so quality isn't
+noticed):
+
+=for f in *.jpg {magick $f -resize 25% $(file-name-sans-extension f)-small.jpg}=
+
+* [2021-06-15 Tue] Erection of the ANI Ship Assembly Hall               :eng:
+- Presenter: James Deane-Butcher & Kyle Hourigan (Robert Bird Group)
+- Summary
+  - 200m portal frame, 50m height, 4000t steel sitting on 7m height blade walls
+  - CMES Construction Methodology and Erection Sequence analysis
+  - Rotation of walls and lift roof was used to remove working from heights
+  - Used a tension strand jack for wall rotation paired with push-pull jacks for controlling when past tipping point
+  - Walls can to past vertical to allow for roof lift
+  - OSDP Wall rotation 2019 youtube ANI
+  - [[https://www.youtube.com/watch?v=Zu53GqYdp9w][Wall rotation video]]
+  - [[https://www.youtube.com/watch?v=FT4bKSLIyuI][Roof lift video]]
+  - Accounted for jack failure in roof lift
+
+* [2021-06-09 Wed] The DBP (NSW) for Engineers                          :eng:
+- Presenter: Greg Ewing
+- The Design and Building Practitioners Act (NSW) for Engineers 
+- Summary:
+  - Relevant parts of legislation are Sections 31-33
+  - Sec 31: Defines professional engineering
+  - Sec 32: Defines work that requires PE qualification
+  - Sec 33: To get paid for this work you must be PE
+  - Info on application/maintaining PE quali is on fair-trade website
+  - Required for engineers working on Class 2 buildings with >5yr experience
+  - Next step is /Design practitioner/ which is required to sign off documentation (that it complies with BCA)
+  - To maintain rego you must abide by code of practice, do 50hr/yr CPD, keep records for 10yrs and have insurance
+    
+* [2021-06-08 Tue] Professional liability and Ethics                    :eng:
+Summary:
+- We don't have to worry about personal liability since action will be taken against the company/employer (but this is about financial loss, not job loss)
+- The webinar had an unusual focus on law/court rather than ethics as advertised. It was more about what you can get away with rather than what is ethical
+- Growth comes from stretching yourself/pushing beyond your current capability. Assume, when given these tasks, that your manager has good intentions when giving difficult assignments
+
+* [2021-05-21 Fri] Engineering textbooks                                :eng:
+
+Textbooks from uni (ticks mean I have PDF also):
+- [X] Anil Chopra, Dynamics of Structures, Third Edition
+- [ ] S Barry, Essential Mathematical Skills
+- [X] R C Hibbeler, Structural Analysis, Eighth Edition in SI Units
+- [X] Gere & Goodno, Mechanics of Materials, Seventh Edition
+- [X] Glyn James, Modern Engineering Mathematics, Fourth Edition
+
+* [2021-05-21 Fri] Inducta                                              :eng:
+
+** RCB
+*** Model creation
+1. Start from Indesco template in Indesco Library drive (has load combinations set up)
+2. Define storey heights
+3. CAD import for each level
+4. Start drawing members (walls, columns, slabs, etc.)
+
+*** Naming convention
+XXXX(Project num) - Proj Name - RCB - XXXX.XX.XX(date arch base) -
+XX(rev) - Description - Sub description - XX(initials)
+*** Tips
+- Meshing errors can be caused by discontinuity between levels
+*** Wall/Deep Beam Design
+Accessed through =Design > Wall/Deep Beam=
+
+Settings:
+- Steel MPa :: 500 for ULS
+- Concr f'ct :: 0 for ULS (assume cracked)
+
+* [2021-05-21 Fri] Pile design                                          :eng:
+** AS 2159
+*** Section 1
+**** Pile types
+Displacement of non-displacement types - whether it displaces the soil
+of its volume or not. Displacement piles are either large displacement
+or small displacement Non-displacement piles are either
+supported(/temporary support) or unsupported
+
+*** Section 3 - Strength and serviceability design
+**** Design for
+1. Ultimate strength
+2. Serviceability
+3. Durability
+4. Other (as required by client)
+
+**** Ultimate strength
+Design geotechnical strength and design structural strength must be
+greater than design action effect:
+- $R_{d,g} \ge E_d$
+- $R_{d,s} \ge E_d$
+
+Actions specified in AS 1170.0
+
+***** R_d,ug
+$R_{d,ug} = f_{m,s}A_s + (f_b + p_o)A_b - W$ and, assuming $W =
+A_{b}p_{o}$ $R_{d,ug} = f_{m,s}A_s + f_{b}A_b$
+
+**** Serviceability
+Pile displacement $\delta$ should be controlled.
+
+   
+*** Section 4
+*** Section 5
+*** Section 6
+*** Section 7
+*** Section 8
+
+* [2021-05-21 Fri] RAPT                                                 :eng:
+
+** Default settings to consider
+*** General
+- Pattern Live Load: No
+*** Design Data
+- Ultimate
+  - Minimum Reinforcement Strength Limit: 1.33
+- Crack control
+  - Max Service Stress Change - PT & Reo: 200 MPa
+- Deflection
+  - Maximum Value of Ieff/Igross: 1 (due to PT)
+  - Incremental Deflection Warning Limit: 500
+  - Time of Loading: 28 days
+
+*** Design considerations
+- Columns
+  - Change the column percentage stiffness (20%)
+- Transverse columns
+  - Should probably be knife-edge connection?
+
+* [2021-05-21 Fri] Structural toolkit                                   :eng:
+
+** 2021.04.29 Conference - Use and tips
+1. Check setup tab (save some settings as defaults)
+2. Add sheets on the left pane, adding to the project
+*** Tips
+- Link sheets together :: Useful for joist - beam loadings
+  - Highlight
+  - R. Click
+  - Fill form
+- Convert between timber/steel members :: Carries over loadings (MEMBERS tab)
+- DOCUMENT > MEMBER SUMMARY/RXN SUMMARY
+- Can set modules to NOT PRINTED :: for use with PRINT/EXPORT all PROJECT TAB DOCUMENT TAB for printing all pot current
+- CTRL + CLICK :: Allows selection of other versions of modules Colder codes)
+- Members Presets :: Can change default values (eg. Wind load)
+
+* [2021-05-21 Fri] Structural integrity reinforcement                   :eng:
+
+*AS3600:2018 Section 9.2*
+
+** Integrity reinforcement
+*** Email from Daruis
+Afternoon All!
+
+I’ve been working on a couple of projects where I have been
+considering our favourite topic…Integrity Reinforcement.
+
+For the Engineers, see below for a detailed run down.
+
+For the drafters…be aware that we are now required to add extra
+reinforcement bars directly over our columns (in the bottom
+reinforcement) – see attached PDF markup for a typical slab.
+
+Clause 9.2 Structural Integrity Reinforcement
+
+We are still debating what is exactly required and are trying to
+utilize our PT strand as a way of minimizing the extent, however the
+code does not allow us to consider PT strand at the moment (despite
+zero testing or theory backing this up). In any case, in order to
+achieve compliance with Clause 9.2, we must detail an amount of
+reinforcement over the columns in the bottom reinforcement layer which
+is directly related to the ultimate reaction N* for the particular
+column under consideration.
+
+The summation of the reinforcement at a particular column is given by
+equation 9.2.2 reproduced below:
+
+To calculate N*, work out the tributary area and multiply by your
+ultimate load case (1.2G + 1.5Q).
+
+These bars are required to be placed WITHIN the column core and they
+must extend a minimum 2 x Lsy.tb from the face of the column, and
+should be cogged at discontinuous edges.
+
+This means, that the length of the bar will be dependent on the bar
+diameter selected, and hence, ideally we would select the smallest bar
+size possible, however we are restricted to keeping the bars within
+the column core, and so this will not always be possible.
+
+The other thing is, we are not required to have an even amount of bars
+in each direction of the column (i.e. 3N16’s EW). We simply need a
+minimum of 2 bars or 2 strands in each direction (Cl. 9.2.1).
+Therefore, we could potentially have 2N16’s in one direction and
+4N16’s in the other direction.
+
+As an example, I have attached a copy of a typical 200mm thick slab
+for a post tension job I am looking at. The first page is a markup of
+the integrity reinforcement required for the deck, the second page
+shows the trib. area for each column in blue, and in green is the
+integrity reinforcement required for each column based on equation
+9.2.2.
+
+I have also attached a spreadsheet that I am working on in order to
+simplify the design process for us. This is under development and I
+will look to improve this to speed this process up as much as
+possible.
+
+Numerical Example Let’s consider the column above the top right hand
+side of the core as shown below:
+
+As you can see above, the trib area for the column is 48.4m2. Now we
+will use the spreadsheet to calculate our required integrity
+reinforcement for the column.
+
+If you open the spreadsheet up, you will see this:
+
+Only red text requires an input, everything else will be calculated
+for you.
+
+From the top work through the “Basic development length” inputs in
+red.
+
+Input f’c, D (slab depth), cover, fsy, db (bar diameter), spacing; in
+this example I have decided to use N16 bars initially.
+
+This will generate your basic development length (yellow rectangle).
+
+Next, enter your column dimensions, trib area and your pressure loads.
+The spreadsheet will calculate you slab self weight from the depth you
+provided in the basic development length above.
+
+This will then generate the total area you need to satisfy the
+integrity reo (green box), and in the pink box, it will call up the
+number of bars you require for that bar size.
+
+I have also calculated the lengths required for your bars for an
+internal column and an edge column (external span).
+
+So for this example, we can get away with 12N16’s (note I have used
+13N16’s in my markup as I have rounded up and am using this deck as an
+exercise for a client).
+
+Now, say you can’t fit 12N16’s in your column, you will need to
+increase the bar size, let’s try N20’s.
+
+Simply change the bar size you originally selected to 20 and the
+spreadsheet will do the rest:
+
+We now only require 8N20’s, but note how the required bar lengths have
+increased significantly!
+
+This will likely be a topic we will re-visit on our training day on
+the 6th of December.
+
+In the meantime though, engineers please read through Clause 9.2 of
+AS3600 (2018) and get yourselves familiar with the clause as it will
+likely be here to stay.
+
+* [2021-05-21 Fri] Fibre fueled                                        :book:
+
+Book by Will Bulsiewicz
+
+** FGOALS
+- Fruit + fergmented
+- Greens + Wholegrains
+- Omega3 superseed (hemp, flax chia)
+- Aromatics (garlic, onion, shallots)
+- Legumes
+- Shrooms + Seaweed/Seavege + Sulfuraphane (broco, cauliflower, b.sprouts)
+
+* [2021-05-21 Fri] File conversion                                     :prog:
+
+** PDF -> DWG
+https://easypdf.com/pdf-to-autocad
+- Note, exports at 1:1 scale. Need to use AutoCAD =SCALE= tool to correct.
+
+** PDF -> Unlock PDF
+https://smallpdf.com/unlock-pdf
+
+* [2021-05-21 Fri] Opensees sections                                   :prog:
+
+- reference :: https://opensees.berkeley.edu/wiki/index.php/OpenSees_Example_9._Build_%26_Analyze_a_Section_Example
+ 
+- Example:
+  - RC beam
+  - 300 x 200 mm
+  - 3x N12 bars, bottom, 30mm cover
+
+#+begin_src python
+  import opensees as ops 
+#+end_src
+
+* [2021-05-21 Fri] Python examples                                     :prog:
+
+** Units of measurement
+Using the pint package
+
+#+begin_src python :results output
+  import pint u = pint.UnitRegistry()
+
+  mass = 100 * u.kg acc = 9.81 * u.m/u.s**2
+
+  force = mass * acc print(force) print(force.to(u.kN)) 
+#+end_src
+
+#+RESULTS:
+: 981.0 kilogram * meter / second ** 2
+: 0.981 kilonewton
+
+* [2021-05-21 Fri] Biblatex biber                                      :prog:
+
+** Create local bib file
+Say you are writing a latex document using a bibliography generated
+from your ~master.bib~ file. Once the document is nearing completion you
+may want to create a local bib file containing only the subset of bib
+items used in the document.
+
+For this purpose, we can use biber:
+
+#+BEGIN_SRC sh
+  biber --output-format=bibtex paper.bcf # -> paper_biber.bib biber
+  --output-format=bibtex --output_fieldcase=lower paper.bcf biber
+  --output-format=bibtex --output_file=local.bib paper.bcf 
+#+END_SRC
+
+This requires the ~.bcf~ file is present. If it is not, you simply run
+pdflatex/latexmk on the document.
+
+* [2021-05-21 Fri] Emacs editting                                      :prog:
+
+** Tutorials
+There are a bunch of emacs tutorials from MIT which I found at:
+
+[[https://www6.software.ibm.com/developerworks/education/au-emacs1/au-emacs1-ltr.pdf][Emacs editing environment, Part 1]] [[https://www6.software.ibm.com/developerworks/education/au-emacs2/au-emacs2-ltr.pdf][Emacs editing environment, Part 2]]
+[[https://www6.software.ibm.com/developerworks/education/au-emacs3/au-emacs3-ltr.pdf][Emacs editing environment, Part 3]] [[https://www6.software.ibm.com/developerworks/education/au-emacs4/au-emacs4-ltr.pdf][Emacs editing environment, Part 4]]
+[[https://www6.software.ibm.com/developerworks/education/au-emacs5/au-emacs5-ltr.pdf][Emacs editing environment, Part 5]] [[https://www6.software.ibm.com/developerworks/education/au-emacs6/au-emacs6-ltr.pdf][Emacs editing environment, Part 6]]
+[[https://www6.software.ibm.com/developerworks/education/au-emacs7/au-emacs7-ltr.pdf][Emacs editing environment, Part 7]]
+
+* [2021-05-21 Fri] Emacs on windows                                    :prog:
+
+Some tips for setting up emacs on Windows:
+
+** General tips
+- Set environment variable HOME to home folder
+
+** Emacs daemon service
+These tips and other come from [[https://github.com/termitereform/JunkPile/blob/master/emacs-on-windows.md][this blog]].
+  
+1. To setup the daemon, create shortcut =path\to\emacs\runemacs.exe --daemon=
+2. To setup the client, create the shortcut =path\to\emacs\emacsclientw.exe
+   -n -a "" -c=
+3. Copy both client and daemon to
+   =C:\Users\[USERNAME]\AppData\Roaming\Microsoft\Windows\Start
+   Menu\Programs\=
+4. Copy the daemon shortcut to
+   =C:\Users\[USERNAME]\AppData\Roaming\Microsoft\Windows\Start
+   Menu\Programs\=
+
+** pdf-tools
+To view pdfs using pdf-tools, the executable =epdfinfo.exe= is required.
+Instructions ask us to build it ourself, but it can also be downloaded
+and added to the environment variables:
+
+1. Go to [[https://github.com/m-parashar/emax64/releases/tag/20180529]] and
+   download =pdf-tools-YYYYMMDD.XXX.7z=
+2. Extract the =pdf-tools-XXXX= folder and copy to =Home= directory
+3. Add to the user's environment variables
+4. Install =pdf-tools= package and run =M-x pdf-tools-install=
+
+* [2021-05-21 Fri] ffmpeg                                              :prog:
+
+** Trim video
+#+begin_src bash
+  # Start + end time
+  ffmpeg -i input.mp4 -ss 00:01:40 -to 00:02:03 -c copy output.mp4
+  # Start time + duration
+  ffmpeg -i input.mp4 -ss 00:01:40 -t 00:00:23 -c copy output.mp4
+
+#+end_src
+
+** Crop video
+For more detail, visit
+https://www.linuxuprising.com/2020/01/ffmpeg-how-to-crop-videos-with-examples.html
+
+Crop inputs are:
+- *w*: width
+- *h*: height
+- *x*: x pos of left margin
+- *y*: y pos of top margin
+Variables for input width and input height are iw and ih. If x and y
+aren't given, they default to center.
+
+#+begin_src bash
+  # Preiview
+  ffplay -vf "crop=w:h:x:y" input.mp4
+  # Process
+  ffmpeg -i input.mp4 -vf "crop=w:h:x:y" output.mp4
+  # Example (crop to 3/4 height)
+  ffmpeg -i input.mp4 -vf "crop=iw:3*ih/4" output.mp4 
+#+end_src
+** Convert video
+
+#+begin_src bash
+# Convert
+ffmpeg -i input.webm output.mkv ffmpeg -i input.mkv -c:a copy -s hd720
+output.mkv ffmpeg -i input.mkv -c:a copy -s 1280x720 output.mkv
+
+#+end_src
+
+Some flags:
+- -s hd720 :: change resolution to 720p
+- -s 1280x720 :: change resolution to 720p
+- -c:a copy :: copy audio codec
+- -c:v copy :: copy video codec
+- -b:v 1M :: set bitrate to 1Mbps
+- -r 30 :: set framerate to 30fps
+
+* [2021-05-21 Fri] Opensees                                            :prog:
+
+** Ubuntu installation
+1. Install dependencies
+   #+BEGIN_SRC sh
+     sudo apt install gfortran tcl8.6-dev
+     # sudo apt install gcc g++ tcl8.6 # Already present
+   
+   #+END_SRC
+2. Download the source code into the home dir:
+   #+BEGIN_SRC sh
+     git clone https://github.com/OpenSees/OpenSees ~/
+     
+   #+END_SRC
+3. Copy file:~/OpenSees/MAKES/Makefile.def.EC2-UBUNTU to file:~/OpenSees/Makefile.def
+4. In file:~/OpenSees/Makefile.def, make sure =INTERPRETER_LANGUAGE = TCL=
+5. In file:~/OpenSees/Makefile.def, make sure =HOME = /home/james=
+6. In file:~/OpenSees/Makefile.def, check =TCL_LIBRARY= points to correct location
+7. Create file:~/lib/ and file:~/bin/ directories if not present
+8. Compile
+   #+BEGIN_SRC sh
+     cd ~/OpenSees && make
+   #+END_SRC
+9. Move the new executable from file:~/bin to file:/usr/local/bin
+
+* [2021-05-21 Fri] Tikz in orgmode                            :noexport:prog:
+
+From this gist:
+https://gist.github.com/RyanGreenup/79a8eb780ff958267730c7e5845f1045
+
+# #+LATEX_HEADER: \usepackage{svg}
+# #+LATEX_HEADER: \usepackage{tikz}
+
+# #+NAME: tikz-eg-oneline
+# #+CAPTION: How to produce Tikz in Org-mode
+
+# #+HEADER: :exports results
+# #+HEADER: :imagemagick yes
+# #+HEADER: :results output graphics file
+# #+HEADER: :file contour.svg
+# #+BEGIN_SRC latex
+# \begin{tikzpicture}
+# \draw[->] (-3,0) -- (-2,0) arc[radius=0.5cm,start angle=-180,end
+# angle=0] (-1,0) -- (1,0) arc[radius=0.5cm,start angle=180,end angle=0]
+# (2,0) -- (3,0); \filldraw (-1.5,0) circle[radius=1mm]; \filldraw
+# (1.5,0) circle[radius=1mm]; \end{tikzpicture} 
+# #+end_src
+
+# #+RESULTS:
+# #+BEGIN_EXPORT latex
+# [[file:contour.svg]] #+END_EXPORT
+
+* [2021-05-21 Fri] Typesetting markdown with context                   :prog:
+
+** Blog
+- [X] [[https://dave.autonoma.ca/blog/2019/05/22/typesetting-markdown-part-1/][Part 1]] Build script
+- [X] [[https://dave.autonoma.ca/blog/2019/05/29/typesetting-markdown-part-2/][Part 2]] Tool review
+- [X] [[https://dave.autonoma.ca/blog/2019/06/16/typesetting-markdown-part-3/][Part 3]] Automagicify (continuous integration)
+- [X] [[https://dave.autonoma.ca/blog/2019/06/23/typesetting-markdown-part-4/][Part 4]] Theme Style
+- [ ] [[https://dave.autonoma.ca/blog/2019/07/06/typesetting-markdown-part-5/][Part 5]] Interpolation
+- [ ] Part 6 Computation
+- [ ] Part 7 Mathematics
+- [ ] Part 8 Annotations
+- [ ] Part 9 Figures
+
+* [2021-05-21 Fri] Ultimate training                                    :health:
+
+** Movement training
+Coming from [[https://www.youtube.com/watch?v=DWl_wmst2LY][video]] is the idea of training by /movement/. It is
+champoined by Ido Portal.
+
+I think I could implement some of these ideas (training movements)
+into frisbee at an intermediate to advanced (D2 - D1) level.
+
+*** Drill implementations
+**** Throwing flicks
+Here, a solid way to get players to relearn the motion of the flick is
+to add an unusual/awkward movement. For example, stepping backward
+into an L-stance, or stepping directly forward.
+
+This could be done through introduction of new movement to throw, then
+use the 5min solid throwing, 1min break, then 5min throwing regeime
+I've already tested. Between blocks I could incorporate an increase in
+distance.
+
+**** Jumping/skying
+Rather than just a jump-off style drill, add in movement specific
+challenges. Examples:
+- Jump of only left/right leg, landing on same leg
+- Landing on opposite leg
+- Twisting in the air (catching correct edge)
+
+* [2021-05-21 Fri] Work pc setup                                       :prog:
+
+** Cloud folder
+Instead of using Dropbox when OnDrive is already available, I've
+created a symlink called Dropbox that redirects to OneDrive:
+
+1. Turn on developer mode: =Settings > For Developers > Install apps from any source = True=
+2. From home folder =mklink /D Dropbox "OneDrive - Indesco Pty Ltd"=
+
+** Autohotkey
+1. Script is located at file:~/Dropbox/setup/keymaps.ahk
+2. Go to startup folder: =~/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/=
+3. Make symlink =mklink keymaps.ahk "%USERPROFILE%\Dropbox\setup\keymaps.ahk"=
+
+* [2021-05-21 Fri] Youtube channel                                     :prog:
+
+** Video ideas
+*** Installing OpenSees on Ubuntu
+*** OpenSees for beginners - Simply supported beam static analysis
+Simply supported beam with increasing number of elements
+*** tcl procedures (displacement at unknown x location on beam)
+*** OpenSees for beginners - Simply supported beam dynamic analysis
+*** Plotting OpenSees results
+*** Writing procedures/functions for OpenSees/tcl
+
+** Recording
+*** ffmpeg
+#+BEGIN_SRC sh
+  ffmpeg \ -f x11grab \ -s $(xdpyinfo | grep dimensions | awk '{print
+  $2}') \ -i :0.0 \ -f alsa -i default \ -c:v libx264 -r 30 -c:a flac
+  \ out.mkv 
+#+END_SRC
+
+Can change audio input device with pavucontrol
+
+* [2021-05-21 Fri] Engagement story                                     :jnl:
+
+On the 15th May 2020, I proposed to Alex. Here is the story:
+
+Alex had worked from Mon-Thu during the week and had Friday off. I'd
+planned to go for a run an a swim in the previous days, so that
+morning we set off around 7:30am.
+
+When we left, I had to make an excuse to head back in the house and
+move the ring from my hiding spot in it's box my textbook crate to the
+camping shelf for easy access when we got home.
+
+We went for an easy jog, starting at North Beach, heading south around
+WIN stadium and back again. The morning was chilly, and at the end of
+the run Alex was not keen to get in the water. Probably for the best,
+since the water numbed the skin, but that was plan A.
+
+One of our shared and cherrished memories was going for a run and swim
+at North Beach when we started dating, so I wanted to propose in the
+water. Oh well...
+
+The ring was still fairly well hidden, so I went about plan B. I
+already had the ingredients to make a vegan thanksgiving roast (sweet
+potato mash, lentil mushroom stew and cranberry/apple sauce pastry)
+which we made for lunch. We then packed the finished product headed to
+Mt Keira lookout for a picnic.
+
+Again, I had to head back to the house to get the ring, without making
+Alex suspicious. Luckily for me, I'd done a poo before we left, and
+she provided me with a great cover story asked "did you check that you
+flushed the toilet"? Dodged a bullet there since I didn't have a
+backup excuse ready...
+
+I popped the ring into my pocket and had to hide the bulge while
+getting into the car, leaving it on my right side while I drove. When
+we reached the top I had to do some sneaky manouvering to take it out
+and put it below the back seat without her spotting it. The feeling
+was that I was acting weird, but she had no idea.
+
+We ate and then I went back to the car to "put away the food/plates"
+and grab the ring. There were about three other groups of people at or
+around the lookout, but luckily after a few minutes of waiting they
+dissapeared and we ended up with the lookout to ourselves.
+
+It was time. I had a few sentences ready, but when the time came I
+forgot it all. I mentioned the run/swim we had when we started dating
+and said I had a surprise planned. She started to cotton on and said
+are you proposing, where I replied yes. "Are you serious"? I was and
+said "I've know that I wanted to marry you for a while" and produced
+the ring, took a quick knee and asked the question. There was a yes
+and she began to cry. No time for ring placement, I hoped up for the
+hug. We hugged for a little and then did the business of putting on
+the ring.
+
+It was a weird moment. Something I hadn't really ever imagined
+properly, but the feeling was nice. We were both very happy and took
+at least a few minutes to just take it in at the lookout.
+
+We went from the lookout down to the 5 Islands Lookout and took a few
+photos at the rocks, before returning home. Things were back to
+normal, kind of. Nothing had changed, but Alex was now wearing a ring.
+It felt right.
+
+* [2021-05-21 Fri] Landmark forum                                       :jnl:
+
+On 2/02/2020 I attended Drew's home introduction, run by Graham and
+Sounboun - two Landmark /leaders/. The premise of the home introduction
+was to highlight the benefits for the $835 Landmark Forum course, run
+over three days (Fri-Sun) + Tuesday night, along with testimony from
+both Drew and Lui.
+
+The benefits of the course seemed clear based on Drew and Lui's
+experiences which included:
+
+- Clearer idea of what they want out of life and how to get it
+- Improvements to family relationships
+- Confidence to ask for what they want (4 hour week, different work conditions)
+
+Although I like the sound of the course, the thing I dislike is the
+salesmanship displayed by the leaders. At the end of the session, both
+attempted to convince me to join the course which I was unsure about.
+The downsides were the cost and the amount of time required. Graham
+latched onto the fact that I was indecisive/cautious and said that is
+something that will hold me back. Although true to an extent, this is
+quite misleading. I felt under pressure and as though I was being
+tricked into the course.
+
+My conclusion has been that I will not do the course. The reason being
+that I currently feel control over my life and think that the course
+seems better suited to someone who wants change. The other hesitation
+I have is that my impression is that those who do the course are
+pressured into sharing and bringing in others which seems slimy
+(caveat being that given the course is as good as it seems, it's
+understandable that you would want to share it with friends).
+
+Perhaps doing the course would allow me to find the confidence to
+resist the pressure of having to share the course with others :P
+
+* [2021-05-21 Fri] Org mode source blocks                              :prog:
+
+Here are some useful resources:
+
+1. [[https://jherrlin.github.io/posts/emacs-orgmode-source-code-blocks/][Emacs orgmode source code blocks (J Herrlin)]]
+2. [[http://howardism.org/Technical/Emacs/literate-devops.html][Literate devops (Howard Abrams)]]
+3. [[https://www.youtube.com/watch?v=0g9BcZvQbXU][Consistent technical documents in org-mode (youtube)]]
+
+** Shell
+#+BEGIN_SRC shell
+  echo $SHELL 
+#+END_SRC
+
+#+RESULTS:
+: /usr/bin/zsh
+
+Arguements can be passed:
+#+BEGIN_SRC shell :var ARG1="FOO" ARG2="BAR"
+  echo $ARG1 $ARG2 
+#+END_SRC
+
+#+RESULTS:
+: FOO BAR
+
+** Remote/sudo shell
+Execution on remote servers can be done by
+
+#+BEGIN_SRC bash :dir /ssh:root@alexandjames.com:/
+  ls /var/www/ 
+#+END_SRC
+
+#+RESULTS:
+: html  recipes  vultr  wedding  workouts
+
+#+BEGIN_SRC bash :dir /sudo::/ :results output
+  cat /etc/hosts 
+#+END_SRC
+
+#+RESULTS:
+: 127.0.0.1	localhost
+: 127.0.1.1	xps13
+:
+: # The following lines are desirable for IPv6 capable hosts
+: ::1     ip6-localhost ip6-loopback
+: fe00::0 ip6-localnet
+: ff00::0 ip6-mcastprefix
+: ff02::1 ip6-allnodes
+: ff02::2 ip6-allrouters
+** Shell writting files
+:PROPERTIES:
+:var:      hostname='xps13'
+:END:
+  
+#+BEGIN_SRC bash :results none
+  echo -n "\ 127.0.0.1 localhost ::1 localhost 127.0.1.1
+  $(hostname).localdomain $(hostname) " > hosts 
+#+END_SRC
+
+Some notes:
+- variable /hostname/ is set in the properties drawer
+- for production, we would set a directory with =:dir /sudo::/etc/=
+- can also set output file to => /etc/hosts=
+
+* [2021-05-21 Fri] Org notes                                           :prog:
+
+** jrm-notes package
+
+This is a small package I put together to implement two functions:
+- note create, which takes a title and creates a new org file named correctly, and
+- note search, to create a =completing-read= input list that allows me to full text search all notes.
+
+** org-roam package
+*** Overview
+
+Org-roam gives the functionality of linking notes together by
+backlinks. Some of the advantages are:
+- Backlinks are nice to link together notes
+
+Some of the disadvantages are:
+- Tries to rename notes
+- Requires sqlite and graphviz
+- Seems heavy just to give backlink support (I don't think I'll use
+  anything else...)
+  
+*** Usefulness
+Part of the problem I have assessing the usefulness is the way
+tags/links are conflated. There are three tag types now:
+
+**** Org tags
+use the =#+FILETAGS: ...= syntax and don't really play nice with roam
+
+**** Roam tags
+use the =#+ROAM_TAGS: ...= syntax and are just used in
+=org-roam-find-file=
+
+**** Other tags
+use the =- tags :: ...= syntax and are used for links to other files
+
+**** Conclusion
+I think I will remove org-roam, since the usefulness doesn't add up
+for now. Happy I did the research though, as it gave me some nice
+[[New workflow ideas]] to implement in my own notes package.
+
+*** Integration
+
+To integrate org-roam into my current note setup, I should add tags
+and links in the current files.
+
+Some tasks to complete:
+
+**** DONE Add =jrm-note-create= keybind and remove for =org-roam-find-file=
+
+The roam function looks for a note by title and creates one with a
+=CAPTURE-{DATE}-{title}= format, which I don't really like. I'll just
+use my own =jrm-notes= pkg
+
+**** DONE Go through notes and format (remove hard indentation)
+**** DONE Version control notes into repo
+**** KILL Set up links and tags
+
+** New workflow ideas
+*** KILL Book/article notes
+To take notes on articles that I read, it might be a good idea to
+create a note on the topic
+*** KILL Add my own =jrm-insert-link= function
+*** DONE Journal workflow
+I already have a journal file, but it might be nice to add it into the
+notes directory
+
+I didn't add it to the notes dir, but updated the capture template.
+Going to use Dropbox for backup, not bother with git/github
+
+*** DONE Integrate org-agenda and org-todo
+This seems like a good idea to add notes files into my agenda
+
+** calendar.org for reoccurring events
+
+Reoccurring events can be added using the =+1m= syntax at the end of a
+timestamp, meaning repeat each month. For example:
+
+#+BEGIN_SRC example
+  ** TODO Weekly meeting DEADLINE: <2021-01-24 Sun +1w> 
+#+END_SRC
+
+Once it is marked done, the date should jump to the next occurrence
+and change back to =TODO= state.
+
+* [2021-05-21 Fri] Windows software                                    :prog:
+
+** Scoop
+Scoop package manager: https://scoop.sh
+*** Installation
+Requires Powershell 5+
+#+BEGIN_SRC ps
+  Invoke-Expression (New-Object
+  System.Net.WebClient).DownloadString('https://get.scoop.sh')
+
+  % If error occurs, try: Set-ExecutionPolicy RemoteSigned -scope
+  CurrentUser 
+#+END_SRC
+
+*** Installed apps
+#+BEGIN_SRC ps
+  scoop install 7zip scoop bucket add extras scoop update scoop
+  install ack bitwarden cacert coreutils curl deluge emacs fd ffmpeg
+  fzf gawk ghostscript git gnuplot grep imagemagick inkscape krita
+  less mpv pdftk perl python ripgrep sbcl sed time touch vim wget
+  xournalpp youtube-dl 
+#+END_SRC
+
+** Other programs
+- Python packages - numpy pandas matplotlib scipy ipython
+- [[https://www.sumatrapdfreader.org/][SumatraPDF]]
+- [[https://imageglass.org/][ImageGlass]]
+- [[https://autohotkey.com/][AutoHotkey]]
+- [[http://sourceforge.net/projects/ezwinports/files][Hunspell]] + add to path + [[https://cgit.freedesktop.org/libreoffice/dictionaries/tree/en/][local dict]] ([[http://www.nextpoint.se/?p=656][guide]])
+- Google Drive, Dropbox, Box
+- [[http://opensees.berkeley.edu/][OpenSees]]
+- wsl
+
+** Config
+*** Git account
+#+BEGIN_SRC ps
+  git config --global user.name "James Maguire" git config --global
+  user.email "3rdmaguire@gmail.com" 
+#+END_SRC
+
+*** Dotfiles
+- Also add HOME env variable to user path, then:
+  #+BEGIN_SRC ps
+    cd ~ git clone https://github.com/jamesmaguire/.emacs.d.git
+    .emacs.d 
+  #+END_SRC
+
+  *Key mappings* Mapping Caps Lock to Escape key, and for color
+  picker
+
+  #+BEGIN_SRC ahk
+    ;; REMAPPING Capslock::Ctrl
+
+    ;; COPY HEX COLOUR AT MOUSE #c:: MouseGetPos, mx, my
+    PixelGetColor, color, mx, my, RGB StringLower, color, color
+    clipboard := StrReplace(color, "0x", "#") ToolTip,
+    Copied`n%clipboard%, mx+20, my SetTimer, RemoveToolTip, -2000
+    return RemoveToolTip: ToolTip return 
+  #+END_SRC
+
+  #+BEGIN_SRC ps
+    cd %USERPROFILE% cd "AppData\Roaming\Microsoft\Windows\Start
+    Menu\Programs\Startup" ECHO Capslock::Esc > Caps2Esc.ahk
+
+  #+END_SRC
+
+*** Terminal/CMD theme
+#+BEGIN_SRC ps
+  colortool -b campbell 
+#+END_SRC
+
+* [2021-05-21 Fri] Furniture design and construction for beginners      :diy:
+
+A course by Patricio Ortega (Maderística) , Artisan furniture workshop
+
+** How to get source
+Log in to webpage https://www.domestika.org/en/courses/ To get the
+source, the video must be played, then search for =embed/iframe=
+
+** How to download
+*** List subtitles
+#+BEGIN_SRC sh
+  youtube-dl --list-subs [URL] 
+#+END_SRC
+
+*** Download video with subtitles
+#+BEGIN_SRC sh
+  # With video
+  youtube-dl --write-sub --sub-lang eng [URL]
+  # Without video
+  youtube-dl --write-sub --sub-lang eng --skip-download [URL]
+
+#+END_SRC
+
+*** Convert to mkv (saving space)
+#+BEGIN_SRC esh
+  for v in ls *.bin {ffmpeg -i $v $(file-name-sans-extension v).mkv}
+
+#+END_SRC
+
+** DONE Unit 1 - Introduction
+
+Welcome to my second course at Domestika! In this unit I will
+introduce myself, I will also tell you about my main influences and
+what this second course will be about.
+
+*** U1L01 - About me
+https://fast.wistia.net/embed/iframe/l6rxrc8hxf
+
+Hello! I am Patricio Ortega, I am an architect by profession, but I
+dedicate myself to carpentry. I will tell you a little about this
+project that we call Maderística. Let's get to know each other a
+little!
+
+*** U1L02 - Influences
+https://fast.wistia.net/embed/iframe/4gkabww5kk
+
+Let me tell you a bit about those who have influenced my work, always
+in a positive way. Since I was little, they supported me to promote my
+interests. The love I feel for what I do is something that I have
+built along the way, I will talk about that and much more in the
+lesson.
+
+*** U1L03 - What we will do in this course
+https://fast.wistia.net/embed/iframe/0ubv5h5hfo
+
+Finally, the moment you have waited the most has arrived. I will
+present you the project that we will carry out, I will explain why I
+chose this piece of furniture so that you continue to advance in this
+profession. I will comment on the types of unions and techniques that
+we will see. Remember that you can modify the dimensions and
+characteristics to adjust it to your interests.
+
+** DONE Unit 2 - Structural, Functional and Basic Aesthetic Notions for Furniture Design
+
+In this unit we will review the three essential aspects of a piece of
+furniture, its structural stability, its functionality and its
+aesthetic qualities.
+
+*** U2L01 - Basic structural notions
+https://fast.wistia.net/embed/iframe/abxf9fgwqi
+
+In this lesson we will review some key structural notions to be able
+to successfully design any piece of furniture.
+
+*** U2L02 - Functional considerations
+https://fast.wistia.net/embed/iframe/nz5n17rvl0
+
+I will tell you how we approach the issue of functionality in
+Maderística. This is not such a complex subject but it is important
+that you understand it to create beautiful and functional furniture. I
+will show you my favorite book in which you can find a lot on the
+subject.
+
+*** U2L03 - The aesthetic dimension
+https://fast.wistia.net/embed/iframe/enzdwo6iii
+
+Let's talk about aesthetics. I will teach you some of the aesthetic
+concepts that you must take into account when designing. I'll tell you
+what it's like to design to build. Remember that the beautiful and the
+ugly is subjective, there is what we like and what we don't.
+
+*** U2L04 - Review of functional and aesthetic structural dialogue 1
+https://fast.wistia.net/embed/iframe/m2k6nbt7qj
+
+I will show you how functional, structural and aesthetic aspects have
+dialogued in Maderística projects. I will also show you how the
+evolution of Maderística has been. Everything is the result of
+constant work. Don't worry if you start with something simple,
+practice makes perfect. Each piece of furniture is a new opportunity
+to learn.
+
+*** U2L05 - Review of functional and aesthetic structural dialogue 2
+https://fast.wistia.net/embed/iframe/pt2pw2r8x2
+
+In this second part we will analyze in depth other furniture that we
+have made. I will show you how each piece of furniture has its own
+language. I will explain to you how the three variables that we saw in
+part one of the lesson dialogue.
+** DONE Unit 3 - The wonderful World of Woodworking
+
+In this unit, we will review those key notions that you must master
+before beginning any work in carpentry. I will talk to you about the
+importance of the workspace and I will show you an over-bench counter,
+very practical for those who are just starting out in the trade.
+
+*** U3L01 - Thinking like a carpenter
+https://fast.wistia.net/embed/iframe/3zcadpqnwi
+
+What is thinking like a carpenter? This goes far beyond just making
+good or bad cuts, it is about thinking that our project is fully
+functional. I will tell you the importance of not basing everything on
+the numbers. Ten does not exist!
+
+*** U3L02 - Materials and tools 1
+https://fast.wistia.net/embed/iframe/6qxt8gkbyw
+
+Now I will introduce you to the materials and tools that you will use
+throughout the course. I will give you a brief explanation of each of
+them although the tools are not everything, knowing them in depth does
+make a difference. Thus, you will be sure that you are using each of
+them for what it is.
+
+*** U3L03 - Materials and tools 2
+https://fast.wistia.net/embed/iframe/8wzls341ki
+
+This process of knowing the tools is going to take a little time, in
+this second part I will finish teaching you all. I will give you some
+options to remove some of the tools for others.
+
+*** U3L04 - Work bench
+https://fast.wistia.net/embed/iframe/wb7tb1cmsy
+
+It is time to review the most important tool in the workshop, the work
+table. Remember that this piece is composed of two parts, I will
+explain how to use it so that you can get the most out of this tool.
+If you use the work table well, your furniture will be easier to make.
+
+*** U3L05 - Design and dimensioning 1
+https://fast.wistia.net/embed/iframe/yyj3tbau80
+
+In this lesson we will begin the design process. I will show you where
+I start from to create my project and the tests I do. The most
+important thing will be that we define proportions. You don't need to
+do is in a software like I did, take a pencil and paper and do it!
+
+*** U3L06 - Design and dimensioning 2
+https://fast.wistia.net/embed/iframe/gusrq85yrj
+
+During this last part you will see how I add details to the design to
+make it look as beautiful as possible. I'll also show you how I
+defined the shelves, texture, and a bevel. You will learn basic
+effects that do not require you to be the most expert, so do not be
+afraid, I already explain in detail the why of everything.
+
+** DONE Unit 4 - The Production
+
+In this unit you will get to work, I will show you in detail the
+process for assembling your furniture. I will teach you how to mark,
+identify, cut and analyze your pieces. You will see different
+techniques to perform various processes. I will tell you how to solve
+some problems that may arise along the way.
+
+*** U4L01 - Selection of material, cutting, identification of parts and sanding 1
+https://fast.wistia.net/embed/iframe/npa8xmipzg
+
+Are you ready to get down to business? We are going to start with the
+cutting, identification and sanding of each of the pieces of the
+project! I will show you how to start making the cutting lines to
+optimize the material. You will learn how to understand and arrange
+each of your pieces.
+
+*** U4L02 - Selection of material, cutting, identification of parts and sanding 2
+https://fast.wistia.net/embed/iframe/wzctmetvr
+
+For this second part we will focus on making the cuts. You will see
+how I arrange my table to make them. I'll show you how to use each
+tool to achieve a clean cut. Remember to use all security measures!
+
+*** U4L03 - Selection of material, cutting, identification of parts and sanding 3
+https://fast.wistia.net/embed/iframe/5p2aa3iik
+
+Finally, I will teach you how to turn your cuts into a piece, you will
+learn how to identify the characteristics that will help you define
+them. I will show you how to mark the pieces for later use in an
+optimal way.
+
+*** U4L04 - Marking and drilling of screws
+https://fast.wistia.net/embed/iframe/e1gu78agw
+
+In this lesson I will teach you how to mark the places where the
+screws will go, you will see how I drill so that they fit well. You
+will learn tips so that everything is exactly where it should go.
+
+*** U4L05 - Entarugado 1
+https://fast.wistia.net/embed/iframe/rzbs1u25w
+
+There are different alternatives of entarugado, I will teach you the
+method that we use in Maderística. However, as it is not the only one,
+I will also tell you a little about other alternatives. I will tell
+you the pros and cons of these processes.
+
+*** U4L06 - Creased 2
+https://fast.wistia.net/embed/iframe/kwte5emgm
+
+To finish with the entarugado, I will show you how to check that
+everything is perfectly adjusted. It is important that we constantly
+check that everything is in place. I will share with you some of the
+secrets that I have learned to get everything accurate.
+
+*** U4L07 - Discounts
+https://fast.wistia.net/embed/iframe/mkz798j4n
+
+It is time for you to know how to make the cuts. I will show you how
+to do it on the body of the cabinet, the door, etc. Strawberries will
+be your best allies for this process. You will know three different
+ways to make the recesses, I will tell you when to use each one.
+
+*** U4L08 - Body mounting
+https://fast.wistia.net/embed/iframe/txd2r543u
+
+Everything is already taking shape, right? In this lesson I will teach
+you how to assemble the cabinet. You will learn how to glue, I will
+tell you the pros and cons of the ways to do it. I will also tell you
+what is my favorite way of doing it. Keep in mind that this process is
+going to require a lot of work, do not despair, you are about to reach
+the end.
+
+*** U4L09 - Legs 1
+https://fast.wistia.net/embed/iframe/fklnwoj13
+
+We will finish the legs of our furniture. I will teach you how to do
+it so that they look good. If you notice that something is not right,
+do not worry, these things can be solved, here I show you how. Analyze
+each of your pieces!
+
+*** U4L10 - Legs 2
+https://fast.wistia.net/embed/iframe/9qwctgr4z
+
+Finally, I will show you how to carry out the final adjustments to
+make your legs look good. You will see which are the key places where
+you should pay more attention, so your furniture will have the
+strength it needs.
+** DONE Unit 5 - Finishings and Design Details
+
+In this unit we will advance in the completions and some design
+details of our project. You will learn to obtain a perfect sliding of
+your sliding door, to correct some possible details and to apply the
+finish that characterizes Maderística.
+
+*** U5L01 - Finishings and Details on the Body
+https://fast.wistia.net/embed/iframe/vbpcz0moq0
+
+How to give a new completion to the project? In this lesson I show you
+how to incorporate some design details into the body of the project. I
+will tell you everything you need to know, the tools you need and how
+you should use them to carry out this process.
+
+*** U5L02 - Texture Work
+https://fast.wistia.net/embed/iframe/uuhncon8dh
+
+In this lesson we will work on the external face of the door to
+incorporate a texture that has a distinctive character, in addition,
+it will serve as an exercise in expression and mastery of new
+techniques.
+
+*** U5L03 - Final Details and Finish
+https://fast.wistia.net/embed/iframe/2kux0optj8
+
+Finally, I will show you how to round off the edge of the furniture,
+so we will prevent it from cutting like paper. I will teach you how to
+solve some of the problems that may have arisen that we did not notice
+previously. To finish the lesson, you will learn how to apply the
+final finish.
+
+** DONE Unit 6 - Final Project
+https://fast.wistia.net/embed/iframe/hy7miqckm1
+
+Dear Bean Bean, we have reached the end of the course, I hope that the
+content and experiences that I have shared will be useful to you and
+allow you to face your future projects in a better way.
+
+If something made me fall in love with this trade, it is that it is an
+infinite world that feeds on the particular experiences of the entire
+carpenter community, therefore you can delve into it as much as you
+want. The idea of this small course is to give you a minimum floor,
+from which you can safely build your own path, exploring new
+techniques or even inventing some.
+
+I want you to keep the idea that each step has its science and that
+methodology is everything, that even the process of making a simple
+drilling with the drill can be improved if you use some simple
+gadgets, because getting good results is not it depends on some
+"talent" if not on being methodical. I repeat, practice makes perfect.
+
+I also want you to lose the fear of designing, and understand it not
+as an inspirational act but as an exercise in trial and error, which,
+like the construction process, requires a lot of dedication and will
+constantly feed on your experience. Take the time to draw and test
+calmly before building your next project, dare to play and lose the
+fear of being wrong! Errors are very important in any learning
+process.
+
+The invitation now is to build your own mini rack or better yet,
+venture to apply what you have learned in that project you have in
+mind for a long time.
+
+Now I say goodbye but we will continue in contact through the forum,
+as you can imagine I have a lot of work in my workshop but I will try
+to make time to review it and be able to check your progress and
+answer your questions, anyway the idea of the forum is to build a
+community around to the trade, feel free to participate actively by
+reviewing the process of your colleagues and contributing your own
+experience.
+
+A hug
+
+Patrick
+
+* [2021-05-21 Fri] Health                                               :jnl:
+
+For ideas and journalling about exercise, diet, and goal tracking.
+
+** Programmes
+*** Ultyresults - Five workouts for Ultimate
+**** Tournament stamina in a 10 minute workout
+Three exercises. Each repetition is 30 seconds of work followed by 90
+seconds of rest before moving on to the next exercise. Rotate through
+the three exercises for the desired number of repetitions.
+
+To start, try 5-6 repetitions (six repetitions would be doing each
+exercise twice. Five repetitions means you’d do exercises 1 and 2
+twice and exercise 3 one time.)
+
+- Exercise 1: [[https://www.youtube.com/watch?v=OwcFqRvqVCg&utm_source=ActiveCampaign&utm_medium=email&utm_content=Tournament+stamina+in+a+10+minute+workout&utm_campaign=Tournament+stamina+in+a+10+minute+workout][Skater hops]]
+- Exercise 2: [[https://www.youtube.com/watch?v=Wnb2Upsmur4&utm_source=ActiveCampaign&utm_medium=email&utm_content=Tournament+stamina+in+a+10+minute+workout&utm_campaign=Tournament+stamina+in+a+10+minute+workout][Low shuffle]]
+- Exercise 3: [[https://www.youtube.com/watch?v=akPPTiizJ9E&utm_source=ActiveCampaign&utm_medium=email&utm_content=Tournament+stamina+in+a+10+minute+workout&utm_campaign=Tournament+stamina+in+a+10+minute+workout][Short shuttle]]
+
+  If you want to use this workout more than once, add one repetition
+  each week. When you get to nine reps, drop the rest period to 60
+  seconds and start over at 5 repetitions.
+
+*** Ultyresults - Five Functional Strength Moves
+https://www.ultyresults.com/blog/five-favorite-functional-strength-moves
+
+*What is Functional Strength Training?*
+
+Functional strength training is more likely to translate to on-field
+performance than traditional bodybuilding or weight lifting protocols.
+Characteristics of functional strength exercises are...
+
+- multi-joint or full body exercises
+- emphasis on unilateral (single leg/arm) exercises
+- challenges balance and coordination as well as strength
+- often promotes additional core activation or challenges core stability.
+
+  The group asked me to send them a list of the exercises we worked
+  on. Instead I've decided to post several of them here for the
+  benefit of everyone!
+
+  In addition to training single leg strength, many of these movements
+  introduce a diagonal coordination pattern. This is a good movement
+  pattern to strengthen for athletic performance. In ultimate, the
+  diagonal transfer of momentum from the ground, through the hips into
+  the opposite shoulder enhances throwing power.
+
+  1. [[https://www.youtube.com/watch?v=ILPLDpOy630][Backwards Lunge to SLDL]]
+     If you're a long time reader, you've seen this one at least once
+     before. This exercises provides a challenge to hip stability.
+     It's a real challenge especially to the glute medius (on the side
+     of the hip). Start this exercise with no weight until you can
+     perform the exercises for 8-10 reps a side.
+
+     2. [[https://www.youtube.com/watch?v=ro0TUhcSeJ4][Diagonal Squat and Reach]]
+     I love this exercise because it includes a diagonal movement
+     pattern component as well as challenging single leg balance and
+     coordination.
+ 
+     3. [[https://www.youtube.com/watch?v=gbX8ipoRB7s][Diagonal Plate Raise]]
+     This exercise also includes a diagonal component. I like the way
+     this exercise allows you to get into the hip for good glute
+     activation. This exercise is about transferring momentum from the
+     hips into the plate with transfer of momentum through the core.
+     This full body exercise is more difficult than it looks. Start
+     with a 10-25 lb plate with 8-10 repetitions on each side.
+ 
+     4. [[https://www.youtube.com/watch?v=LqGpV_hHBSM][Split Squat to Row]]
+     Requiring less balance than some of the other single leg moves,
+     this exercise trains coordination of lower body to upper body
+     movement in a diagonal pattern.
+
+     5. [[https://www.youtube.com/watch?v=ljNfMN4wACg][Single Leg King Squat]]
+     This move starts with an SLDL and goes into a single leg squat.
+     Like the backwards lunge to SLDL this exercise challenges balance
+     and coordination and is even more difficult.
+** Scheduling
+*** Season scheduler
+**** My 2019 Mixed schedule
+Start: 06/05/2019 End: 14/10/2019
+
+| Date        | Phase        |
+|-------------+--------------|
+| 6 May 2019  | Preparation  |
+| 27 May 2019 | Off-season 1 |
+| 24 Jun 2019 | Off-season 2 |
+| 22 Jul 2019 | Pre-season 1 |
+| 19 Aug 2019 | In-season 1  |
+| 16 Sep 2019 | Taper        |
+|-------------+--------------|
+
+**** Schedule notes
+The training year has several parts:
+
+*Preparation Phase* The purpose of the preparation phase is to learn
+some functional strength exercises and prepare you for more difficult
+training to come. The preparation phase will help to increase your
+mobiliy and reduce soreness vs jumping directly into phase one. If you
+are relatively fit and have been spending time in the weight room
+before you signed up for The Ultimate Athlete Project, you may skip
+the preparation phase however, I believe everyone can benefit from
+preparation phase training.
+
+*Off Season* The purpose of the off season is to build up as much
+strength and power producing ability as possible. We are building a
+base of general strength and athleticism in this phase. There are a
+total of six off season pases in the UAP. You may or may not get to
+see them all depending on when you signed up. You should do a minimum
+of 2 off season phases. It is best to end on an even numbered off
+season phase because those are the power development phases.
+
+*Pre-season* The focus shifts more to conditioning and doing the type
+of work that is more sport specific preparation. Three preseason
+phases will be available in the UAP but you might not use them all
+depending on how much time you have or your current fitness level. Six
+to eight weeks (1.5-2 phases) of preseason training is recommended.
+
+*In-Season* The main priority In Season is to stay healthy. We avoid
+over training In Season by decreasing the volume of training. The
+intensity of training, however, stays high. Three in season phases wil
+be available in the UAP but you might not use them all.
+
+*Tapering* This is the phase before the most important event of the
+season. In this phase you greatly reduce the volume of training while
+maintaining the intensity of training. This ensures that both your
+body and your nervous system are ready to perform at their very best.
+
+*Post Season* This phase consists of non-ultimate and recovery
+activities. It's time to rest both mind and body before starting the
+process all over again. NOTE: not all phases of the UAP are available
+right away. Pre-season phases are available 52 days after your signup
+date. In-season phases are available 82 days after your signup date.
+Spend at least 2 phases in the off season before switching to
+pre-season. Switch from pre-season to in-season when the demands of
+practice/tournaments start to interfere with your recovery between
+workouts.
+
+*Tweaking/Modifying Your Schedule*
+
+*If phases need to be lengthened or shortened to fit your timeline*
+The taper phase can be shortened to 2 weeks - use weeks 2 and 4 of the
+taper phase All phases can be shortened to three weeks by doing weeks
+1,2,3. Phases can also be lengthened 5 weeks = weeks 1,2,3,1,2 of a
+given phase 6 weeks = weeks 1,2,3,1,2,3 of a given phase Phases should
+not be shorter than 3 weeks or longer than 6!
+
+*What happens if I miss X number of weeks?*
+
+X= 1. Carry on where you left off. ex) you completed week 2 and missed
+what would have been week 3 of a phase. When you get back to the gym,
+do week 3 of that phase and continue on. X= 2. Repeat the week prior
+to the week you missed. Ex) you completed week 2 and then got sick for
+2 weeks (missed what would have been weeks 3 and 4). Start again at
+week 2 when you head back to the gym. X = 3. If you completed less
+than 3 weeks of your current phase, start the phase over when you get
+back to the gym. X = 4. Depends on where you are in your schedule.
+Email Melissa.
+
+**** Full schedule
+*** Preparation
+We are assuming each lifting session is about one hour, core circuits
+are about 10-15 minutes, each conditioning session is about 30-45
+minutes (including warmup), and each SAQ session is about 20 minutes
+(including warmup).
+
+- Keep 2 days between the Lifting ("Strength") and the SAQ workouts.
+- SAQ workouts are NOT conditioning. Do NOT do more than what is listed. You should feel fully recovered between reps and sets. If not, add more rest. No big deal.
+- If doing more than one type of sessions on the same day...
+  - SAQ should be done first, before Lifting or Conditioning
+  - Lifting should be done before Conditioning
+  - Conditioning always comes last!
+  - Core can be done whenever
+- Learn to pay attention to how your body is feeling each day. If you start feeling run down by the end of each week, you may not be getting enough recovery. It is okay NOT to do all of the workouts provided. Sometimes less is more.
+
+*** Off-season 1
+*Schedule & Workout Logs*
+
+The main goal of this phase is to focus on building strength in the
+weight room. The lifting sessions are your priority this phase. We are
+going to load more weight on movements similar to what you practiced
+in the prep phase. If you need to leave something out this phase, skip
+the conditioning.
+
+We are assuming each lifting session is about one hour, core circuits
+are about 10-15 minutes, each conditioning session is about 30 minutes
+(including warmup), and each SAQ session is about 20 minutes
+(including warmup).
+
+- Conditioning workouts can always be done after the leg strength
+  training day because it does not matter that your legs are already
+  tired.
+
+- SAQ workouts are NOT conditioning. Do NOT do more than what is
+  listed. You should feel fully recovered between reps and sets. If
+  not, add more rest. No big deal.
+
+- If doing two types of sessions on the same day, SAQ should be
+  done before lifting or conditioning. Lifting should be done before
+  conditioning.
+
+- Learn to pay attention to how your body is feeling each day. If
+  you start feeling run down by the end of each week, you may not be
+  getting enough recovery. It is okay NOT to do all of the workouts
+  provided. Sometimes less is more.
+
+  Building strength is the main focus of this phase. Too much
+  conditioning can be counterproductive to this goal, so keep your
+  volume of conditioning low.
+
+  If you want to do extra work, invest more time in your core. Core
+  circuits can be done 3-6 days per week. Don't start off right away
+  with 6 days/week-work up to it. Alternate between circuit 1 and
+  circuit 2.
+
+  Conditioning can be done 6 days per week but only if you keep the
+  volume low enough to recover between sessions. Do not let your
+  conditioning interfere with your lifting work this phase.
+
+  You can also spend more time doing more tissue quality work this
+  phase. Get yourself on a foam rolling routine now. It's best to
+  have a routine for self-maintenance in place before you need it!
+
+  For the 4days/week cycle, if you can fit in 10 min of conditioning
+  1-2X/week that would also be good.
+
+  As always, the 2days/week cycle is not going to get you far and is
+  more like an in-emergency plan.
+
+* [2021-05-21 Fri] Sympy                                               :prog:
+
+** Intro example
+#+BEGIN_SRC python :results output
+  import sympy as sp
+
+  x, y, z = sp.symbols('x y z') sp.init_printing(use_unicode=True)
+  print(sp.simplify(2*sp.sin(x)**2 + sp.cos(x)**2))
+  print(sp.latex(sp.simplify(2*sp.sin(x)**2 + sp.cos(x)**2)))
+  
+#+END_SRC
+
+#+RESULTS:
+: sin(x)**2 + 1
+: \sin^{2}{\left(x \right)} + 1
+
+** Subs() command
+The subs() command is used to substitute a symbol with a number:
+
+#+BEGIN_SRC python :results output
+  import sympy as sp
+
+  x, y = sp.symbols('x y') f = x**2 + y**2 + sp.Rational(1, 3)*x*y
+  print(f) print(f.subs(x, 1)) print(f.subs([(x, 1), (y, 2)]))
+  print(f.subs([(x, 1), (y, 2)]).evalf(5)) 
+#+END_SRC
+
+#+RESULTS:
+: x**2 + x*y/3 + y**2
+: y**2 + y/3 + 1
+: 17/3
+: 5.6667
+
+** Calculus
+Differentiate and integrate:
+
+#+BEGIN_SRC python :results output
+  import sympy as sp
+
+  x = sp.symbols('x') expr = x**2+sp.Rational(1, 2)*x-5 print(expr)
+
+  derivative = sp.diff(expr, x) print(derivative)
+
+  integral = sp.integrate(expr, x) print(integral) 
+#+END_SRC
+
+#+RESULTS:
+: x**2 + x/2 - 5
+: 2*x + 1/2
+: x**3/3 + x**2/4 - 5*x
+
+Area of a quarter circle:
+
+#+BEGIN_SRC python :results output
+  import sympy as sp
+
+  x, y = sp.symbols('x y') circle = x**2 + y**2 - 1 print(circle)
+
+  circletop = sp.solve(circle, y)[-1] print(sp.integrate(circletop,
+  (x, 0, 1))) 
+#+END_SRC
+
+#+RESULTS:
+: x**2 + y**2 - 1
+: pi/4
+
+** Solve system of equations
+
+Single variable:
+
+#+BEGIN_SRC python :results output
+  import sympy as sp
+
+  x = sp.symbols('x') eq = sp.Eq(x**2-4, 0) print(eq) soln =
+  sp.solveset(eq, x) print(soln) 
+#+END_SRC
+
+#+RESULTS:
+: Eq(x**2 - 4, 0)
+: FiniteSet(-2, 2)
+
+Multiple variables:
+
+#+BEGIN_SRC python :results output
+  import sympy as sp
+
+  x, y = sp.symbols('x y') result = sp.linsolve([x+y-4, x-y-9], (x,
+  y)) print(result) print(result.args[0]) 
+#+END_SRC
+
+#+RESULTS:
+: FiniteSet((13/2, -5/2))
+: (13/2, -5/2)
+
+** Beam example
+This is an example for analysing a beam from =Python for Civil and
+Structural Engineers=.
+
+#+BEGIN_SRC python :results output
+  import numpy as np import sympy as sp import pandas as pd
+
+  def solve_beam(l1, l2, q1, q2): l=l1+l2 #total length
+      Mx=sp.symbols('Mx') #create symbol Mx
+
+      #calculate Mx
+      Mx=sp.solveset(Mx*l1/3+q1*l1**3/24+Mx*l2/3+q2*l2**3/24,Mx).args[0]
+
+      #sove equilibrium equations Va, Vb1, Vb2, Vc=sp.symbols('Va Vb1
+      Vb2 Vc') Va, Vb1=sp.linsolve([Va+Vb1-q1*l1,
+      Vb1*l1+Mx-(q1*l1**2)/2], (Va, Vb1)).args[0]
+
+      Vc, Vb2=sp.linsolve([Vb2+Vc-q2*l2, Vb2*l2+Mx-(q2*l2**2)/2], (Vc,
+                          Vb2)).args[0]
+
+      Vb=Vb1+Vb2
+
+      x1=np.arange(0,l1+0.1,0.1) #create axis x1 x2=np.arange(0,
+      l2+0.1, 0.1) #create axis x2
+
+      beam1=pd.DataFrame({'x':x1}) #create a dataframe for the first
+      span beam2=pd.DataFrame({'x':x2}) #create a dataframe for the
+      second span
+
+      beam1['M']=Va*beam1.x-(q1*beam1.x**2)/2 # calculate M and store
+      it beam2['M']=Mx-(q2*beam2.x**2)/2+Vb2*beam2.x # calculate M and
+      store it
+
+      beam1['V']=Va-q1*beam1.x # calculate V and store it
+      beam2['V']=Vb2-q2*beam2.x # calculate V and store it
+
+      beam2.x=beam2.x+l1 # re-assign x for the second span
+
+      beam=pd.concat([beam1, beam2]) # concatenate the two dataframes
+
+      return beam
+
+  header=pd.MultiIndex.from_tuples([('combo 1', 'M'), ('combo 1',
+                                    'V'), ('combo 2', 'M'), ('combo
+                                    2', 'V')])
+
+  combos=pd.DataFrame(columns=header) combos['x']=solve_beam(4, 5,
+  3.2, 4.5)['x']
+
+  combos['combo 1']=solve_beam(4, 5, 3.2, 4.5) combos['combo
+  2']=solve_beam(4, 5, 4.5, 3.2) combos=combos.set_index('x')
+
+  combos=combos.astype('float') print(combos) 
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+combo 1 combo 2 M V M V x 0.0 0.000000 3.735764 0.000000
+6.611111 0.1 0.357576 3.415764 0.638611 6.161111 0.2
+0.683153 3.095764 1.232222 5.711111 0.3 0.976729 2.775764
+1.780833 5.261111 0.4 1.238306 2.455764 2.284444 4.811111
+.. ... ... ... ... 8.6 3.287444 -7.318611 2.179556
+-4.808889 8.7 2.533083 -7.768611 1.682667 -5.128889 8.8
+1.733722 -8.218611 1.153778 -5.448889 8.9 0.889361
+-8.668611 0.592889 -5.768889 9.0 0.000000 -9.118611
+0.000000 -6.088889
+
+[92 rows x 4 columns] #+end_example
+
+* [2021-05-21 Fri] Website                                             :prog:
+
+** Hosting types
+Four types of hosting:
+*** Traditional hosting (renting server space)
+- Relatively cheap (~$3 per month)
+- Put files on server
+- Good for one website only
+- Becomes more expensive for add-ons (https, extra sites, subdomains, etc)
+*** Free hosts (github pages, tumblr, etc)
+- No domain name (but can be set up like that)
+- Free
+- No server side scripting
+*** Self hosting
+- Using raspberry pi or something similar
+- Need to worry about bandwidth + power use
+- Otherwise free
+*** Virtual private server (VPS)
+- Root access, complete control
+- Need to set up server yourself
+- A bit more expensive (~$15 per month)
+- Require SSL certificate (certbot.eff.org can do for free)
+
+** Hosting services
+*** Domain names
+| Name             | Link                   |
+|------------------+------------------------|
+| alexandjames.com | https://east.epik.com/ |
+
+*** VPS prividers
+21-06-2020 (prices based on 1USD = 1.46AUD)
+| Name          | Storage | Memory | CPUs | Price ($AUD) |
+|---------------+---------+--------+------+--------------|
+| OVHcloud      | 20 GB   | 2 GB   |    1 |         5.00 |
+| Vultr         | 10 GB   | 512 MB |    1 |         5.11 |
+| Vultr         | 25 GB   | 1 GB   |    1 |         7.30 |
+| Digital ocean | 25 GB   | 1 GB   |    1 |         7.30 |
+| Linode        | 25 GB   | 1 GB   |    1 |         7.30 |
+
+I went with Vultr ($7.30, 25GB) since OVH had very bad reviews and the
+cheaper option was not available in the Sydney location.
+** VPS setup
+*** DONE Connect through ssh
+#+BEGIN_SRC bash
+  ssh root@alexandjames.com 
+#+END_SRC
+
+*** DONE Copy over ssh key
+From my local laptop/pc:
+#+BEGIN_SRC bash
+  ssh-copy-id -i ~/.ssh/id_rsa.pub root@alexandjames.com 
+#+END_SRC
+
+*** DONE Install programs on VPS
+#+BEGIN_SRC bash
+  apt update apt upgrade apt install nginx certbot
+  python-certbot-nginx 
+#+END_SRC
+
+*** DONE Setup nginx
+Put these contents in:
+file:/ssh:root@alexandjames.com:/etc/nginx/sites-available/vultr
+
+Default content is stored at
+file:/ssh:root@alexandjames.com:/etc/nginx/sites-available/default
+
+#+BEGIN_SRC conf
+  server { listen 80 ; listen [::]:80 ; root /var/www/vultr; index
+  index.html index.htm index.nginx-debian.html; server_name
+  alexandjames.com www.alexandjames.com; location / { try_files $uri
+  $uri/ =404; } } 
+#+END_SRC
+
+Symlink (dired =S= key)
+#+BEGIN_SRC bash
+  ln -s /etc/nginx/sites-available/vultr /etc/nginx/sites-enabled/
+
+#+END_SRC
+
+Then reload ngninx:
+#+BEGIN_SRC bash
+  systemctl reload nginx 
+#+END_SRC
+
+*** DONE Create webpage
+At file:/ssh:root@alexandjames.com:/var/www/vultr/index.html
+
+*** DONE Certbot
+Run
+#+BEGIN_SRC bash
+certbot --nginx 
+#+END_SRC Add email, agree, don't share email,
+select all domains
+
+Run
+#+BEGIN_SRC bash
+crontab -e 
+#+END_SRC and add line =1 1 1 * * certbot renew= for
+monthly renewals
+** Setup new subdomain
+I'm using the example of our recipes website
+*** Upload html files
+Copy to file:/ssh:root@alexandjames.com:/var/www/recipes/
+*** Turn into nginx enabled site
+Create
+file:/ssh:root@alexandjames.com:/etc/nginx/sites-available/recipes
+
+#+BEGIN_SRC conf
+  server { listen 80 ; listen [::]:80 ; root /var/www/recipes; index
+  index.html; server_name recipes.alexandjames.com; } 
+#+END_SRC
+
+Symlink (dired =S= key)
+#+BEGIN_SRC bash
+  ln -s /etc/nginx/sites-available/vultr /etc/nginx/sites-enabled/
+
+#+END_SRC
+
+Reload ngninx:
+#+BEGIN_SRC bash
+  systemctl reload nginx 
+#+END_SRC
+
+*** Add CNAME record
+At https://east.epik.com/domain-management/host-records add CNAME
+entry for: > recipes [.alexandjames.com]
+   
+That points to > alexandjames.com.
+
+*** Rerun certbot
+#+BEGIN_SRC bash
+  certbot --nginx 
+#+END_SRC
+** Password protection
+*** .htaccess (password)
+Using htaccess and htpasswd we can password protect a directory in the
+static site. The popup may be ugly, but I can also send out custom web
+addresses with the user:password already entered.
+  
+First, add the .htaccess file in the dir that needs protecting
+file:/ssh:root@alexandjames.com:/var/www/wedding/.htaccess
+#+BEGIN_SRC conf
+  AuthName "Alex and James' wedding website" AuthType Basic
+  AuthUserFile /.htpasswd Require valid-user 
+#+END_SRC
+
+*** Using a js password screen
+This idea comes from
+[[https://github.com/matteobrusa/Password-protection-for-static-pages][Matteobrusa]]
+It replaces the index of the site with a password promtp. On correct
+answer the user is redirected to the directory that is the hash of the
+password. I'm going to try allow multiple passwords using symbolic
+links.
+
+I'm using the password herbbouquet which gives:
+e11d50491f2abee764c6c1a40b5b61d4fba80916
+   
+** Tiny tiny RSS server setup
+*** Setup ttrss docker
+1. Install =docker= and =docker-compose=
+2. Clone the ttrss docker repo into file:/ssh:root@alexandjames.com:/var/www/ttrss-docker/
+   #+begin_src bash
+     git clone https://git.tt-rss.org/fox/ttrss-docker-compose.git
+   ttrss-docker && cd ttrss-docker 
+   #+end_src
+3. Copy =.env-dist= to =.env=
+4. Run =docker-compose up --build=
+
+*** Setup nginx
+- A [[https://www.youtube.com/watch?v=spbkCihFpQ8][video]] on nginx reverse proxy.
+- Add this to file:/ssh:root@alexandjames.com:/etc/nginx/sites-available/ttrss
+  #+begin_src conf
+    server { listen 80; server_name reader.jrmaguire.com;
+
+    location / { proxy_pass http://localhost:8280; } } 
+  #+end_src
+
+*** Initial login
+- Go to server_name and login with:
+  - Login: admin
+  - Pass:  password
+- Update password in preference menu
+
+* [2021-05-21 Fri] Linux setup                                         :prog:
+
+** Thoughts
+Using ubuntu gives a nice out of the box experience, but there were
+some limitations with packages. I had issues with bluetooth stuttering
+and had troubles with out of date packages (namely youtube-dl). There
+were workarounds here, but I think I prefer arch. Some other
+inconveiences are python using python3, no alacritty in main repo.
+Also, snap don't seem very good to use (especially for command line
+programs).
+
+Using arch gives up to date packages, but is a bit more involved to
+setup. I still haven't managed to get bluetooth working. Another
+inconveience is that the gnome download automatically pulls a bunch of
+uneeded software. Upgrades are more frequent and use more bandwidth.
+
+A nice thing about ubuntu is I just ended up using the computer more,
+rather than arch where I spent more time tinkering with it. Maybe that
+is a good reason to use ubuntu instead...
+
+I've just changed from Ubuntu to Arch through online recommendations,
+but realised that gnome is comfy, while bspwm is only good for narrow
+tasks. For lesser used things (like mounting drives, using bluetooth,
+switching monitors) I need to do research and some of the solutions
+aren't very convenient. I rather have everything ready and easy so I
+can focus on what I'm doing. This is more of a bspwm v gnome issue,
+but I'm going to go back to ubuntu because of the ease of use. I've
+considered arch gnome and debian gnome, but they always feel "raw"
+which isn't really what I want. Although ubuntu is less appealing with
+regard to staying up to date, I don't really need that and it gives a
+polished and reliable experience.
+  
+** BIOS
+For the Dell XPS13 9350, use these settings:
+- Boot sequence: UEFI
+- Enable Legacy: Off
+- Secure boot:   Disabled
+
+** Ubuntu
+*** Setup
+**** Pull configs
+#+BEGIN_SRC sh
+sudo apt install git emacs mv ~/.config ~/.config.bkp git clone
+https://github.com/jamesmaguire/.config ~/.config git clone
+https://github.com/jamesmaguire/.emacs.d ~/.emacs.d git clone
+https://github.com/jamesmaguire/.vim ~/.vim 
+#+END_SRC Copy dirs
+under =.config.bkp= to =.config=
+
+To add scripts to global path, add =/home/james/.config/scripts= to
+the file:/sudo:root@xps13:/etc/environment
+
+**** Firefox
+- Login to firefox account
+- Change value of ~layout.css.devPixelsPerPx~ to 1.1
+- Customize (compact, remove titlebar, move icons)
+**** Dropbox
+Instructions from this
+[[https://www.fosslinux.com/17023/how-to-install-dropbox-and-setup-sync-on-ubuntu.htm][blog]].
+
+1. Download and unzip
+   #+BEGIN_SRC sh
+     cd ~ && wget -O -
+   "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+   
+   #+END_SRC
+2. Run daemon to set credentials and sync files
+   #+BEGIN_SRC sh
+     ~/.dropbox-dist/dropboxd 
+   #+END_SRC
+3. CLI setup
+   #+BEGIN_SRC sh
+     sudo wget -O /usr/local/bin/dropbox
+     "https://www.dropbox.com/download?dl=packages/dropbox.py" sudo
+     chmod +x /usr/local/bin/dropbox 
+   #+END_SRC
+4. Systemd service (run in bg) as file:/sudo:root@laptop:/etc/systemd/system/dropbox.service
+   (make sure to update User and Group)
+   #+BEGIN_SRC conf
+   [Unit]
+   Description=Dropbox Service
+   After=network.target
+   
+   [Service]
+   ExecStart=/bin/sh -c '/usr/local/bin/dropbox start'
+   ExecStop=/bin/sh -c '/usr/local/bin/dropbox stop'
+   PIDFile=${HOME}/.dropbox/dropbox.pid
+   User=#####
+   Group=#####
+   Type=forking Restart=on-failure RestartSec=5
+   StartLimitInterval=60s StartLimitBurst=3
+   
+   [Install]
+   WantedBy=multi-user.target 
+   #+END_SRC
+5. Reload and enable systemd service
+   #+BEGIN_SRC sh
+     sudo systemctl daemon-reload
+     sudo systemctl enable dropbox sudo
+     systemctl start dropbox 
+   #+END_SRC
+**** Remap caps to ctrl
+
+To remap we use the command
+#+BEGIN_SRC sh
+sudo apt install gnome-tweaks 
+#+END_SRC Add option in
+=gnome-tweak-tool > Keyboard & Mouse > Keyboard > Additional Layout
+Options > Caps Lock behavior=
+
+**** Programs (apt)
+#+BEGIN_SRC sh
+  # Command line progs
+  sudo apt install biber curl fd-find ffmpeg hunspell hunspell-en-au
+  latexmk pdftk ripgrep sbcl sed vim wget xclip
+  # Latex
+  sudo apt install texlive texlive-latex-extra context
+  # Graphical progs
+  sudo apt install deluge flameshot gimp imagemagick inkscape krita
+  mpv xournal
+  # Fun
+  sudo apt install gnome-chess gnome-mines
+  # Python
+  sudo apt install python3-numpy python3-pandas python3-matplotlib
+python3-scipy python3-ipython python3-pyglet ipython3 python3-pip
+
+#+END_SRC
+
+**** youtube-dl + catt (chromecast)
+First make sure it is not installed elsewhere (apt) by running =which
+youtube-dl=
+#+BEGIN_SRC sh
+  pip3 install youtube-dl pip3 install catt
+  # Update with
+  pip3 install --upgrade youtube-dl pip3 install --upgrade catt
+  
+#+END_SRC
+
+**** Color picker
+1. Bind key (super+c) to cpick-gnome
+2. Add link:
+   #+BEGIN_SRC sh
+     cd /usr/local/bin sudo ln -s $HOME/.config/scripts/cpick-gnome
+     cpick-gnome 
+   #+END_SRC
+**** Customisation
+- Set background
+- Go through settings
+- Go through tweaks (remove home/trash from desktop)
+**** Terminal customisation
+Manually edit the colour scheme. Change line height to 1.10 bg colour:
+#343434 fg colour: #BBC2CF theme: solarized
+**** Bash
+- Setup bash_completion: uncomment lines related to =bash_completion= in file://sudo:root@laptop:/etc/bash.bashrc
+- Setup ~/.bashrc as simlink to ~/.config/bash/.bashrc
+**** Github authentication
+Add these details to file:~/.gitconfig
+#+BEGIN_SRC conf
+  [user] name = James Maguire email = 3rdmaguire@gmail.com
+  [credential] helper = store 
+#+END_SRC
+
+**** ZSH
+1. Install
+   #+BEGIN_SRC sh
+     sudo apt install zsh sudo usermod -s /usr/bin/zsh james 
+   #+END_SRC
+2. Update file:~/.zshenv
+   #+BEGIN_SRC sh
+     ZDOTDIR=$HOME/.config/zsh
+
+     # Configure path
+     typeset -U PATH path path=("$HOME/.local/bin"
+     "$HOME/.config/scripts" "$path[@]") export PATH 
+   #+END_SRC
+**** KILL BSPWM
+***** Install
+#+BEGIN_SRC sh
+  sudo add-apt-repository ppa:mmstick76/alacritty sudo apt install
+  alacritty dmenu bspwm sxhkd feh dunst xbacklight scrot xdotool
+  polybar 
+#+END_SRC
+***** Remap caps to ctrl
+Old method was =setxkbmap -option caps:ctrl_modifier= in ~/.xprofile.
+This was fine, but overrides gnome behaviour. New method is to have
+that line in bspwmrc.
+
+***** Add palm rejection
+Old method was =synclient PalmDetect=1= in file:~/.xprofile, but
+requires xserver-xorg-input-synaptics which overwrites gnome settings.
+New method is to use =xinput= in bspwmrc.
+
+***** KILL Allow xbacklight
+Needed to add file:/etc/X11/xorg.conf with:
+#+BEGIN_SRC conf
+  Section "Device" Identifier "0x72" Driver "intel" Option "Backlight"
+  "intel_backlight" EndSection 
+#+END_SRC
+
+**** KILL dwm
+***** Get source code and make
+#+BEGIN_SRC sh
+  git clone https://git.suckless.org/dwm git clone
+  https://git.suckless.org/st git clone https://git.suckless.org/dmenu
+  sudo apt install ibxinerama-dev libxft-dev feh cd ~/Build/dmenu &&
+  sudo make clean install cd ~/Build/st && sudo make clean install cd
+  ~/Build/dwm && sudo make clean install 
+#+END_SRC
+***** Add entry for gdm
+- Add xsession entry file:/sudo:root@xps13:/usr/share/xsessions/dwm.desktop
+  #+BEGIN_SRC conf
+    [Desktop Entry] Name=dwm Comment=Dynamic Window Manager Exec=dwm
+    Type=Application 
+  #+END_SRC
+  - Add file:~/.xprofile with caps/touchpad settings
+
+***** KILL Customise dwm source
+***** KILL Customise st source
+*** Problems
+**** Bluetooth choppy
+https://askubuntu.com/questions/475987/a2dp-on-pulseaudio-terrible-choppy-skipping-audio
+
+Problem with choppy bluetooth. Possible solutions:
+1. Download pavucontrol and edit the offset.
+2. Add this to end of /etc/modprobe.d/alsa-base.conf:
+   #+BEGIN_SRC conf
+     # Custom
+     options snd-hda-intel model=generic 
+   #+END_SRC
+** Arch
+*** Installation
+*** Setup
+**** Pull configs 
+#+BEGIN_SRC sh
+  git clone https://github.com/jamesmaguire/.config ~/.config git
+  clone https://github.com/jamesmaguire/.emacs.d ~/.emacs.d git clone
+  https://github.com/jamesmaguire/.vim ~/.vim 
+#+END_SRC
+**** Programs
+#+BEGIN_SRC sh
+  # Command line progs
+  sudo pacman -S emacs fd gawk grep ffmpeg ripgrep git sed wget
+  hunspell hunspell-en_AU man pdftk sbcl vim youtube-dl
+  # Graphical progs
+  sudo pacman -S deluge flameshot gimp imagemagick inkscape krita
+  libreoffice mpv sxiv xournalpp
+  # Fun/gnome/fonts
+  sudo pacman -S noto-fonts ttf-roboto ttf-opensans
+  ttf-ubuntu-font-family
+  # sudo pacman -S gnome-chess gnome-mines gnome-clocks
+  # Latex
+  sudo pacman -S texlive-core biber pandoc 
+#+END_SRC
+**** Login
+Choose one of startx or gdm
+***** startx (w/ autologin)
+Enter following entries into file:~/.xinitrc
+#+BEGIN_SRC conf
+  # exec gnome-session
+  exec dbus-launch bspwm 
+#+END_SRC
+
+Enable autologin by editting
+file:/sudo:root@xps13:/etc/systemd/system/getty@tty1.service.d/override.conf:
+#+BEGIN_SRC conf
+  [Service] ExecStart= ExecStart=-/usr/bin/agetty --autologin james
+  --noclear %I $TERM 
+#+END_SRC
+
+***** gdm
+- Clean up sessions by removing unwanted under file:/sudo:root@xps13:/usr/share/xsessions and file:/use/share/wayland-sessions
+- Add file:~/.xprofile
+  #+BEGIN_SRC sh
+    setxkbmap -option caps:ctrl_modifier synclient PalmDetect=1
+    
+  #+END_SRC
+
+***** Caps to Esc
+For gdm logins to gnome set option in =gnome-tweak-tool > Keyboard &
+Mouse > Keyboard > Additional Layout Options > Caps Lock behavior= For
+bspwm of startx, this is taken care of in bspwmrc
+
+**** Firefox
+- Login to firefox account
+- Change value of ~layout.css.devPixelsPerPx~ to 1.1
+- Customize (compact, remove titlebar, move icons)
+**** zsh
+1. Install
+   #+BEGIN_SRC sh
+     sudo pacman -S zsh chsh -l chsh -s /usr/bin/zsh 
+   #+END_SRC
+2. Update file:~/.zshenv
+   #+BEGIN_SRC sh
+     ZDOTDIR=$HOME/.config/zsh
+
+     # Configure path
+     typeset -U PATH path path=("$HOME/.local/bin"
+     "$HOME/.config/scripts" "$path[@]") export PATH 
+   #+END_SRC
+**** Dropbox
+Instructions from this
+[[https://www.fosslinux.com/17023/how-to-install-dropbox-and-setup-sync-on-ubuntu.htm][blog]].
+
+1. Download and build
+   #+BEGIN_SRC sh
+     git clone https://aur.archlinux.org/dropbox.git ~/build/dropbox/
+     cd ~/build/dropbox makepkg -si --skippgpcheck 
+   #+END_SRC
+2. Run daemon to set credentials and sync files
+   #+BEGIN_SRC sh
+     dropbox 
+   #+END_SRC
+3. Systemd service (run in bg)
+   #+BEGIN_SRC sh
+     sudo systemctl enable dropbox@james sudo systemctl start
+     dropbox@james 
+   #+END_SRC
+**** Color picker
+1. Defined in the file:~/.config/scripts/cpick-x repo
+2. Bind =colourpick= function to a key (super+c) in gnome menu
+3. Should work out of box with sxhkd in bspwm
+**** Python
+#+BEGIN_SRC sh
+  sudo pacman -S python-numpy python-pandas python-matplotlib
+python-scipy python-pyglet ipython 
+#+END_SRC
+**** Github authentication
+Add these details to file:~/.gitconfig
+#+BEGIN_SRC conf
+  [user] name = James Maguire email = 3rdmaguire@gmail.com
+  [credential] helper = store 
+#+END_SRC
+
+**** Mouse control
+***** New
+Handled in bspwmrc using xinput commands
+
+***** Manual
+Write the following to [[file:/etc/X11/xorg.conf.d/70-synaptics.conf]]
+(need sudo permissions)
+#+BEGIN_SRC sh
+  Section "InputClass" Identifier "touchpad" Driver "synaptics"
+  MatchIsTouchpad "on" Option "TapButton1" "1" Option "TapButton2" "3"
+  Option "VertTwoFingerScroll" "on" Option "HorizTwoFingerScroll" "on"
+  Option "CircularScrolling" "on" Option "CircScrollTrigger" "0"
+  Option "VertScrollDelta" "-50" Option "HorizScrollDelta" "-50"
+  EndSection 
+#+END_SRC
+**** KILL Gnome customisation
+***** Install
+#+BEGIN_SRC sh
+  sudo pacman -S gnome sudo pacman -R gnome-books gnome-boxes
+  gnome-contacts gnome-maps gnome-music gnome-photos gnome-weather
+  gnome-documents gnome-software epiphany malcontent totem 
+#+END_SRC
+***** Alt-tab behaviour
+***** Keyboard shortcuts
+***** Install dash to dock
+https://extensions.gnome.org/extension/307/dash-to-dock/
+***** Yaru theme
+Download theme from AUR (humanity-icon-theme is dependancy):
+#+BEGIN_SRC sh
+cd ~/build git clone https://aur.archlinux.org/yaru.git git clone
+https://aur.archlinux.org/humanity-icon-theme.git cd
+~/build/humanity-icon-theme makepkg -si cd ~/build/yaru makepkg -si
+sudo pacman -S chrome-gnome-shell 
+#+END_SRC Then download 'User
+Themes' extension from
+https://extensions.gnome.org/extension/19/user-themes/ Update themes
+in gnome tweak menu
+**** Bluetooth support
+Install broadcom firmware:
+#+BEGIN_SRC sh
+  cd ~/build git clone https://aur.archlinux.org/bcm4350-firmware.git
+  cd bcm4350-firmware makepkg -si 
+#+END_SRC
+**** Remove grub timer
+Set grub_timeout=0 in file:/sudo:root@xps13:/etc/default/grub Rerun
+=sudo grub-mkconfig -o /boot/grub/grub.cfg=
+
+**** BSPWM
+#+BEGIN_SRC sh
+  sudo pacman -S dmenu alacritty bspwm sxhkd feh dunst libnotify sudo
+  pacman -S alsa alsa-utils pulseaudio xorg-xbacklight xorg-xinput
+  xf86-video-intel xdotool scrot xclip
+
+  git clone https://aur.archilnux.org/polybar.git ~/build/polybar cd
+  ~/build/polybar makepkg -si
+
+  cd ~/build git clone
+  https://aur.archlinux.org/ttf-font-awesome-4.git cd
+  ~/build/ttf-font-awesome-4 makepkg -si 
+#+END_SRC
+**** Swap file
+#+BEGIN_SRC sh
+  sudo pacman -S systemd-swap 
+#+END_SRC
+
+Uncomment =swapfc_enabled=1= in
+file:/sudo:root@xps13:/etc/systemd/swap.conf
+
+#+BEGIN_SRC sh
+  systemd enable systemd-swap systemd start systemd-swap 
+#+END_SRC
+**** Mounting disks
+#+BEGIN_SRC sh
+  sudo pacman -S udisk2 udiskie
+
+#+END_SRC
+
+* [2021-02-08 Mon] Grand Canyon Track                                  :hike:
+- In the Blue Mountains, this track is lined with gloworms at night. Pretty amazing on a starry night.
+
+* [2021-01-17 Sun] Fleabag                                           :series:
+- My rating: {{{stars5}}}
+- Dark British humour with a very unique style, commonly
+  breaking the fourth wall for exposition.
+  
+* [2021-01-01 Fri] Ender's Game Novel Series                           :book:
+- Orson Scott Card
+- {{{stars5}}}
+- ows a child as he trains to defeat an alien civilisation. I particularly liked the Shadow Series that followed Bean, one of the side characters in Ender's Game.
+
+* [2021-01-01 Fri] Life of Pi                                          :book:
+- tel
+- ars4}}}
+- vel following a young boy lost at sea.
+
+* [2021-01-01 Fri] Wayfarers Series                                    :book:
+- Beckyambers
+- {{{stars4}}}
+- pecies universe full of nice characters.
+
+* [2021-01-01 Fri] Sapiens                                             :book:
+- ah Harari
+- ars4}}}
+- esting. The second book, Homo Deus, is also a great read.
+
+* [2021-01-01 Fri] Wheel of Time Series                                :book:
+- Author: Robert Jordan
+- My rating: {{{stars3}}}
+- Read 3/14 so far, but I like it.
+
+* [2021-01-01 Fri] South West Arm Pool                                 :hike:
+- Small estuary in the Royal National Park. Accessible by boat or walking down Winifred Falls Firetrail from Wurumbul Road (4km return). Two or three good jump rocks and rope swings. Best at high tide.
+
+* [2020-12-31 Thu] The Mandalorian                                   :series:
+- ars5}}}
+- ew perspective to the Star Wars world.
+
+* [2020-12-31 Thu] Avatar: The Last Airbender                        :series:
+- ars3}}}
+- d some nuggets of wisdom.
+
+* [2020-12-31 Thu] The Witcher                                       :series:
+- ars4}}}
+- nd characters.
+
+* [2020-12-31 Thu] Formula 1: Drive to Survive                       :series:
+- ars3}}}
+- ula 1.
+
+* [2020-12-31 Thu] Middleditch & Schwartz                            :series:
+- My rating: {{{stars4}}}
+- A series of improv comedies on Netflix; very funny.
+
+* [2020-12-31 Thu] Dominion                                             :movie:
+- My rating: {{{stars3}}}
+- Confronting and very difficult to watch. Very important though.
+
+* [2020-12-31 Thu] Mad Max: Fury Road                                   :movie:
+- My rating: {{{stars4}}}
+- Amazing visuals and entertaining characters.
+
+* [2020-12-31 Thu] Book of Eli                                          :movie:
+- My rating: {{{stars4}}}
+- Post apocalyptic journey with a big twist at the end.
+
+* [2020-12-31 Thu] John Wick                                            :movie:
+- My rating: {{{stars4}}}
+- Perfect balance of unrealistic action and fun.
+* [2020-12-31 Thu] Rob Roy Glacier Track                               :hike:
+- Cool approach down a dirt road, over a bunch of river crossings. Long uphill hike through some stunning landscapes. Rewarding view of Rob Roy Glacier at the end.
+
+* [2020-11-29 Sun] First month at Indesco                               :jnl:
+
+This past week has had some good and bad aspects. It's been my fourth
+week working for Indesco in the Parramatta office.
+
+Starting with some of the bad stuff, the commute (drive to Liverpool
+and train into Parra) has starting to get a little boring. Kinda been
+getting on my nerves a bit. I think it's partly the lack of good
+podcasts since I go through the good ones so quickly now. I enjoy
+reading Wheel of Time on the train, but feel like it's such a short
+time.
+
+Next, I've been falling into some bad eating habits. With Woolies at
+Parra station, I've been getting snacks each evening to eat in the
+car. It's been making me feel bad and losing appetite for dinner which
+sucks. I've also felt lightheaded when doing physical activity
+(running, standing washing dishes). I went for two runs this week but
+was feeling pretty battered by the end of the week. I thought it was
+the extra exercise, but now I reckon it was the food. I want to start
+eating healthy. Perhaps replace my snack with a piece of fruit.
+
+My relationship with Alex has been a bit strained, because there's
+pressure when we're together to make the most of time, but I always
+just want to rest or have quiet time. I should do something for her.
+
+Some good stuff is that I showed my interpretation of the AS3600
+integrity reo clause to Dave, which he picked up straight away.
+Previously they'd been using one bar counting towards the area
+required, but I showed that because the area is counted per column
+face, you can use one bar through the column as 2xA_bar. This has
+significantly (halved/more than halved) the amount of integrity reo
+used in the design. I think Dave and Mark Mobilia were impressed
+(maybe Mark moreso).
+
+I've also hit a groove with the PT markups. Things have kinda clicked
+and I'm looking forward to really pumping through some slabs this week
+coming.
+
+* [2020-09-20 Sun] Fasting update                                       :jnl:
+
+The first day of the fast wasn't that hard. Went for a 17km hike
+(Austimer to Stanwell) from 9am to 1pm. Was thinking about food and
+coming up with excuses for a snack on the drive home, but the cravings
+went away after half an hour or so. Went climbing from 4pm to 6pm and
+was surprised to not be exhausted or hungry afterward. Ate a big (1
+3/4) serve of nachos for dinner. Also not hungry this morning.
+
+Second day I barely had any cravings for food. This was a nice Sunday
+rest day and I didn't do much apart from a quick trip to Woolies for
+dinner. Had some tea mid afternoon. Had a large serving of donburri
+for dinner and a plant based meat pie that Alex had got for us to try.
+Looking forward to the rest of the week.
+
+* [2020-09-18 Fri] Fasting challenge                                    :jnl:
+
+Starting from tomorrow (Saturday) I am going to begin only eating one
+meal per day. Just a challenge to try to bring into line my eating
+habits and hopefully loose some weight. I'm concerned how this will
+effect my gym and climbing, so I'll try to regularly update my
+progress/feelings here.
+
+* [2019-02-11 Mon] Strengh work                                         :jnl:
+
+I decided that from now on, I need to target strength. I have
+noticed a slow sprinting speed lately, which is something to
+increase. At minimum, I need to be doing a pushup/situp/squat
+session every morning but a better result is to follow this
+[[https://frisbeethrows.com/ultimate-frisbee-workout-make-you-unstoppable/][plan]]
+set by Ryan Barbieri.
+
+The plan includes:
+
+- Single Leg "Speed Skater Jumps"
+- Lateral Bounds
+- Box Jumps
+- Single Leg Step-Up Jumps
+- Broad Jumps
+- Single Leg Bounds (Skipping)
+- High Catches From Kneeling
+- Banded Lateral Twists
+- Banded Star
+- "Hard-Style" Plank
+- Supine Bridge
+- Med Ball Ab Twists (to failure)
+- Single Leg Deadlifts
+- Pistol Squats
+- Ladder Drills
+- Yoga / Stretching
+
+* [2019-02-08 Fri] Time to target a lower weight                        :jnl:
+
+Something that Willem said last night caught my attention; "It's not
+my fitness holding me back, it's the extra 40 pounds." Although I'm
+now feeling much fitter, and should continue to progress through
+running, the thing that will always prevent me from peak performance
+is carrying too much weight. I need the have both strength /and/ light
+weight. This should be the quickest way to see large improvement.
+
+To achieve this, I am going to focus on diet. No artificial sugars
+during the day any more. In addition, I would like to start
+experimenting with intermittent fasting as a way to help my body
+recover and stop food craving. Currently my body is always "/on/" trying
+to digest which uses up a lot of energy.
+   
+* [2019-01-04 Fri] Reflection on 2018                                   :jnl:
+
+I don't think the I'm very happy with how 2018 panned out. Both my
+personal health and my work suffered. I think that this was down to my
+diet, which in turn had an effect on my motivation to work and
+exercise.
+
+Eating badly while at work needs to stop. I am ashamed of it. This is
+the number 1 most important thing to focus on this next year.
+
+Due to my lack of focus and motivation at work, I slipped into a
+number of bad habits. These included YouTube and Reddit. I have spent
+too much time on these websites and need to pair it down to start
+being more productive at work.
+
+Towards the end of the year I began to form some good habits like
+yoga. Once I started getting in to this, it became very easy. I even
+looked forward to it. The benefits of this were mental as well as
+physical.
+
+*Some resolutions*
+- YouTube/Reddit only at lunch time (between 12pm-1pm). Use should be
+  intentional.
+- Go completely dairy free. This eliminates most of the bad foods that
+  cause the problem.
+- Start making some green smoothies to help with cravings.
+- Set aside 30 minutes each day for yoga, a run, or other exercise.
+
+*Actions*
+- Find some software that block youtube/reddit
+- Write out green smoothie ingredient list
+
+* [2026-03-26 Thu] Reading list                                        :book:
+- Who Fears Death, Nnedi Okorafor
+- Mort, Terry Pratchett --- Discworld 4
+- Slaughterhouse-five, Kurt Vonnegut
+- The Three Body Problem, Cixin Liu
+
+* [2026-03-26 Thu] Completed projects                                   :eng:
+** Indesco
+*** 8265 Lot 21, 12 Brady St Berkeley
+- Design of steel framed warehouse with precast facade
+- Piered raft slab on uncontrolled fill
+- CPS and inspections
+*** 7872 West Dapto 2 Reed Creek Bridge
+- Design of 3 span super-T bridge, 35m midspan
+- Wingwall, abutment, headstock, girder and deck
+*** 8029 48-50 Gipps St Wollongong
+- Design of shoring wall
+- CPS and inspections
+*** 7370 71-77 Kembla St Wollongong
+- Design of shoring
+- Design of PT slabs
+- Design of lateral system
+  
