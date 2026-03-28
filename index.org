@@ -2,6 +2,37 @@
 #+startup: overview
 #+setupfile: ./notes.setup
 
+* [2026-03-28 Sat] Engineers Australia Code of Ethics                   :eng:
+
+[[https://www.engineersaustralia.org.au/publications/code-ethics]]
+
+1. Demonstrate Integrity
+   - Be well informed and act impartially, do what is right
+   - Be honest and open to scrutiny
+   - Act towards people with respect
+2. Practise Competently
+   - Engage in CPD and peer review/discussion
+   - Only practise areas in which you are competent
+   - Act in accordance with legal/statutory requirements
+3. Exercise Leadership
+   - Promote teamwork and support peers
+   - Communicate clearly and in a timely manner
+4. Promote sustainability
+   - Be sensitive to public concerns
+   - Icorporate non-financial criteria into descisions
+   - Balance the needs of current and future generations
+* [2026-03-28 Sat] Earthquake SLS deflection                            :eng:
+
+To convert from Earthquake ULS deflection to SLS deflection:
+
+d_SLS = d_ULS * C_25/C_500 / mu
+
+We divide by mu because at ULS we are saying the deflection is mu times the elastic limit for deflection.
+
+C_25/C500 is usually k_25/k_500 = 0.25 / 1.0 = 0.25
+
+Note, k_25 = 0.25 is in older vertsion of AS 1170.4 standard.
+
 * [2026-03-26 Thu] Reading list                                        :book:
 - Who Fears Death, Nnedi Okorafor
 - Mort, Terry Pratchett --- Discworld 4
