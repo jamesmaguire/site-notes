@@ -325,9 +325,6 @@ Brad Pitt is an astronaut who travels to his long thought lost Dad and his ship.
 7. Apply an epoxy based binding agent EPIREZ-133 or equivalent to the exposed concrete and patch with MP Rapid Set-60 or Masterflow 870.
 8. Once concrete has reached it’s required compressive strength, carry out final stressing of tendon TXX and TXX.
 
-* [2023-08-27 Sun] Code web app for RC wall design                      :eng:
-* [2023-08-26 Sat] Code web app for beam shear/torsion design           :eng:
-
 * [2023-08-24 Thu] Facade Special Cladding Typologies                   :eng:
 
 - *Title*: Special Cladding Typologies
