@@ -6,7 +6,7 @@
 
 #+html_head: <link rel="stylesheet" type="text/css" href="./notes.css" />
 #+html_head: <script type="text/javascript" src="./notes.js" defer></script>
-#+html_head: <link rel="icon" type="image/ico" href="html-export/notes-favicon.svg" />
+#+html_head: <link rel="icon" type="image/ico" href="./favicon.svg" />
 #+html_head: <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 # Star ratings
