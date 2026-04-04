@@ -2,6 +2,19 @@
 #+startup: overview
 #+setupfile: ./notes.setup
 
+* [2026-04-01 Wed] Indesco meeting                                 :noexport:
+
+Strategic initiative
+No structure from CBR, PARA
+Moving office in CBR, PARA
+Angus will help redundant structural teams apply for new jobs
+
+* [2026-03-31 Tue] CPEng interview                                      :eng:
+
+Ran through a number of projects - concrete, bridges, steel example
+Asked for my input into these projects and particular challenges with the projects
+Building industry review - I was asked to name the building acts and years (I fumbled this bit, worthwile memorising ahead of time)
+Result given at the end, he said I have demonstrated expertise and experience to be considered chartered, may take up to 2 weeks for the results to come through
 * [2026-03-28 Sat] Engineers Australia Code of Ethics                   :eng:
 
 [[https://www.engineersaustralia.org.au/publications/code-ethics]]
