@@ -41,7 +41,7 @@ const notedate = note =>
                .innerText
                .substring(1,11));
 
-const notefiltertext = note => note.textContent;
+const notefiltertext = note => note.textContent.toLowerCase();
 
 const intersection = (array1, array2) => array1.filter(value => array2.includes(value));
 
@@ -76,9 +76,8 @@ buttons.map(button =>
                             })
 );
 
-
 function refreshfilter() {
-    let filterVal = searchbar.value;
+    let filterVal = searchbar.value.toLowerCase();
 
     for (let i=0; i<notes.length; i++) {
         let note = notes[i];
