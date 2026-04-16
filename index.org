@@ -2,6 +2,37 @@
 #+startup: overview
 #+setupfile: ./notes.setup
 
+* [2026-04-16 Thu] NSW DBP obligaions                                   :eng:
+
+Before signing a DCD certificate confirm:
+
+- Firms insurance policy explicitly covers employees acting as registered design practitioners
+- Ensure the policy does not exclude claims arising from the Design and Building Practitioners Act 2020
+- Ask for and keep a COC (certificate of currency)
+
+Also:
+- Check the NCC and specific year required by the Constitution Certificate
+- Check integration between all designs
+- Make sure your design is based on the Current Coordination Set
+
+
+Process for issuing a DCD and RDR drawings: 
+
+1. Provide the DCD and regulated designs to the principal design practitioner.
+2. Explicitly state that construction on this variation/design must not commence until this DCD is lodged. 
+3. Request the builder to supply a lodgement receipt or reference number.
+4. Keep a copy of the DCD, regulated design, and issue email to prove that you have fulfilled your responsibility.
+* [2026-04-09 Thu] JN interview - Senior Structural Design Engineer     :eng:
+
+John Jope - recruitment interview
+- Wollongong office is now closed due to end of lease
+- Moss Vale and Sutherland office (new location) strong
+- Work with BHP with ongoing site inspections at Port Kembla
+- Work with XXX on large antenae towers
+- $120k + super starting point, JN senior role range is $100k-$120
+- John is enthusiastic and will recommend me for an interview with Structural team
+- Next interview will involve some technical component, working through a design and being interupted to assess my process dealing with clients
+- Recommends mentioning that I am after a long term job
 * [2026-04-01 Wed] Indesco meeting                                 :noexport:
 
 Strategic initiative
